@@ -521,7 +521,7 @@ var width = $("#map").width(),
 				tooltip.style("visibility", "visible");
 				tooltip.html(
 					//'STATUS: ' + d["Disposition Category"] + '</br>' +
-					'COMPLAINT NUMBER: ' + '<a href= "http://dob-bisweb.buildings.nycnet/bisweb-intra/OverviewForComplaintServlet?complaintno=' + d["Complaint Number"] + '&go6=+GO+&requestid=0" target="_blank">' + d["Complaint Number"] + '</a>' + '</br>' +
+					'COMPLAINT NUMBER: ' + '<a href= "https://a810-bisweb.nyc.gov/bisweb/OverviewForComplaintServlet?complaintno=' + d["Complaint Number"] + '&go6=+GO+&requestid=0" target="_blank">' + d["Complaint Number"] + '</a>' + '</br>' +
 					'BIN: ' + '<a href= "https://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=1&bin=' + [d.BIN] + '&go6=+GO+&requestid=0" target="_blank">' + [d.BIN] + '</a>' +'</br>' +								
 					'ADDRESS: '+ [d.Address] + ', ' + [d.Borough] + '</br>' +
 					'COMMUNITY DISTRICT: ' + d["Community Board"] + '</br>' +
@@ -926,7 +926,7 @@ var width = $("#map").width(),
 		return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'+
 			'<tr>'+
 				'<td>Complaint Number:</td>'+
-				'<td>'+'<a href= "http://dob-bisweb.buildings.nycnet/bisweb-intra/OverviewForComplaintServlet?complaintno=' + d["Complaint Number"] + '&go6=+GO+&requestid=0" target="_blank">' + d["Complaint Number"] + '</a>'+'</td>'+
+				'<td>'+'<a href= "https://a810-bisweb.nyc.gov/bisweb/OverviewForComplaintServlet?complaintno=' + d["Complaint Number"] + '&go6=+GO+&requestid=0" target="_blank">' + d["Complaint Number"] + '</a>'+'</td>'+
 			'</tr>'+
 			'<tr>'+
 				'<td>Last Disposition Date:</td>'+
