@@ -687,9 +687,13 @@ var width = $("#map").width(),
 					if((d.Borough==document.querySelector('#dropdownBoro').value) && (d.dispCat == 'ACTIVE')){
 						return d;
 					}
+				} else if(("Citywide" === document.querySelector('#dropdownBoro').value) && ("Past 2 Years" === document.querySelector('#dropdownYear').value) && ("Active Full/Partial SWO" === document.querySelector('#dropdownDisp').value)){
+					if(d.dispCat == 'ACTIVE'){
+						return d;
+					}
 				} else {
 					return d;
-				}				
+				}			
 			});		
 			console.log(swoFltrVals);
 			d3.select("#swoCnt").html(swoFltrVals.length);
@@ -771,9 +775,13 @@ var width = $("#map").width(),
 					if((d.CD==document.querySelector('#dropdownCD').value) && (d.dispCat == 'ACTIVE')){
 						return d;
 					}
+				} else if(("0" === document.querySelector('#dropdownCD').value) && ("Past 2 Years" === document.querySelector('#dropdownYear').value) && ("Active Full/Partial SWO" === document.querySelector('#dropdownDisp').value)){
+					if((d.dispCat == 'ACTIVE')){
+						return d;
+					}
 				} else {
 					return d;
-				}				
+				}			
 			});		
 			console.log(swoFltrVals);
 			d3.select("#swoCnt").html(swoFltrVals.length);
