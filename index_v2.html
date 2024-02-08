@@ -885,7 +885,30 @@ var width = $("#map").width(),
 			q1.className.baseVal += " " + "zoomedPoint";		  
 		  }	
 		console.log(q1);
-
+		//highlights zoomedPoint for duplicate BINs
+		d3.selectAll(".pointFullSWO")
+			.style("fill", function(d){
+				if([d.BIN] == r2)
+					{return "red"}
+				else
+					{return "#942323"};
+			})
+			
+		d3.selectAll(".pointPartSWO")
+			.style("fill", function(d){
+				if([d.BIN] == r2)
+					{return "red"}
+				else
+					{return "#EA9135"};
+			})
+			
+		d3.selectAll(".pointRescinded")
+			.style("fill", function(d){
+				if([d.BIN] == r2)
+					{return "red"}
+				else
+					{return "#5678A6"};
+			})
 
 	}
 
