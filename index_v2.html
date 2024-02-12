@@ -242,7 +242,7 @@ tr[role="row"]:hover td {
 			<div class="navbar navbar-fixed-top" role="navigation" style="color:white;background-color:RGB(40,56,124);">
 			<a class="logo" href="https://www1.nyc.gov/site/buildings/index.page" target="_blank"> </a>
 				<div class="nav navbar-nav" style="margin-left:15px;margin-top:10px;font-size:26px;font-weight:bold;text-align:center;">
-					STOP WORK ORDERS - PAST 2 YEARS (AS OF <span id="today"></span>)
+					STOP WORK ORDERS - PAST 2 YEARS (ISSUED OR RESCINDED <span id="twoYrs"></span> - <span id="today"></span>)
 					
 				</div>
 			</div>
@@ -452,6 +452,12 @@ $(document).ready(function(){
 	var yyyy = today.getFullYear();
 	today = mm + '/' + dd + '/' + yyyy;	
 	d3.select("#today").html(today);
+
+	var twoYrsAge = new Date();
+	var yearMinusTwo = yyyy-2;
+	twoYrsAge = mm + '/' + dd + '/' + yearMinusTwo;
+	d3.select("#twoYrs").html(twoYrsAge);
+	
 	var latlong = [];
 	var selection = [];
 	var formatDate = d3.time.format("%-m/%-d/%Y").parse;
