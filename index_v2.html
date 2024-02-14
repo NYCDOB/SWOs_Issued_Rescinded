@@ -563,8 +563,8 @@ var width = $("#map").width(),
 
 	});
 
-	//d3.csv("https://raw.githubusercontent.com/NYCDOB/ActiveAHVs/gh-pages/data/activeAHVs.csv",function(data){
-	d3.csv("data/SWOs_Issued_Rescinded_v3.csv",function(data){
+	d3.csv("https://raw.githubusercontent.com/NYCDOB/SWOs_Issued_Rescinded/gh-pages/data/SWOs_Issued_Rescinded_v3.csv",function(data){
+	//d3.csv("data/SWOs_Issued_Rescinded_v3.csv",function(data){
 				points = data.map(function(d){
 				d.latLng = [+d.Latitude,+d.Longitude];
 				d.bin = d.BIN;				
@@ -960,8 +960,8 @@ var width = $("#map").width(),
 	$(function(){
 		table = $('#riskTable').DataTable({
 				"ajax": {
-					//"url": "https://raw.githubusercontent.com/NYCDOB/ActiveAHVs/gh-pages/data/activeAHVsJson.json",
-					"url": "data/SWOs_Issued_Rescinded_v3.json",
+					"url": "https://raw.githubusercontent.com/NYCDOB/SWOs_Issued_Rescinded/gh-pages/data/SWOs_Issued_Rescinded_v3.json",
+					//"url": "data/SWOs_Issued_Rescinded_v3.json",
 					"dataSrc": ""
 				},
 				order: [1,"asc"],
@@ -1046,7 +1046,7 @@ var width = $("#map").width(),
 });	
 	$('#dlData').click(function(e) {
 		e.preventDefault();  //stop the browser from following
-		window.location.href = 'data/SWOs_Issued_Rescinded_v3.csv';
+		window.location.href = 'https://nycdob.github.io/SWOs_Issued_Rescinded/data/SWOs_Issued_Rescinded_v3.csv';
 		
 	});		
 });	
