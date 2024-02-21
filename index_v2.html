@@ -231,10 +231,15 @@ tr[role="row"]:hover td {
 				color: #cc0000;
 			}
 			#filterBar{
-				margin-top: 60px;
+				margin-top: 10px;
 			}
 .nowrap {
   white-space: nowrap ;
+}
+#sourceTxt {
+  padding-top:55px;
+  padding-left: 10px;
+  text-align:left;
 }
 </style>
 <body>
@@ -247,6 +252,7 @@ tr[role="row"]:hover td {
 				</div>
 			</div>
 </div>
+	<p class="small text-muted" id="sourceTxt">Built by DOB Analytics <a href="https://www1.nyc.gov/site/buildings/dob/analytics-reports.page" target="_blank">Dev Squad</a> | <a id="dlData" href="no-script.html">Download Data (csv)</a></p>
 <div class="row" id="filterBar" style="padding-top:5px; padding-bottom:5px;">  
 		<div class="col-md-12">
 			<form id="searchCourse" class=""> 
@@ -404,7 +410,8 @@ tr[role="row"]:hover td {
 						width:100%;"> 
 						  <p align="center" style="font-size: large;">       
 							<B>Loading ... Please wait!</B><br/><br/>
-							<img src="data/spinner.gif">
+							<!-- <img src="data/spinner.gif"> -->
+							<img src="https://nycdob.github.io/SWOs_Issued_Rescinded/data/spinner.gif"></img>
 						  </p>
 					</div>
 				  <div class="" id="">				  
@@ -424,7 +431,7 @@ tr[role="row"]:hover td {
 				</div>
 			  </div>
 	</div>
-	<p class="small text-muted" style=" position:relative; bottom:0px;">Built by DOB Analytics <a href="https://www1.nyc.gov/site/buildings/dob/analytics-reports.page" target="_blank">Dev Squad</a> | <a id="dlData" href="no-script.html">Download Data (csv)</a></p>
+
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
@@ -452,7 +459,7 @@ $(document).ready(function(){
 	var yyyy = today.getFullYear();
 	today = mm + '/' + dd + '/' + yyyy;	
 	d3.select("#today").html(today);
-
+	
 	var twoYrsAge = new Date();
 	var yearMinusTwo = yyyy-2;
 	twoYrsAge = mm + '/' + dd + '/' + yearMinusTwo;
@@ -527,7 +534,7 @@ var width = $("#map").width(),
 				tooltip.style("visibility", "visible");
 				tooltip.html(
 					//'STATUS: ' + d["Disposition Category"] + '</br>' +
-					'COMPLAINT NUMBER: ' + '<a href= "https://a810-bisweb.nyc.gov/bisweb/OverviewForComplaintServlet?complaintno=' + d["Complaint Number"] + '&go6=+GO+&requestid=0" target="_blank">' + d["Complaint Number"] + '</a>' + '</br>' +
+					'COMPLAINT NUMBER: ' + '<a href= "https://a810-bisweb.nyc.gov/bisweb/OverviewForComplaintServlet?complaintno=' + d["Complaint Number"] + '&go6=+GO+&requestid=0" target="_blank">' + d["Complaint Number"] + '</a>' + '</br>' +	
 					'BIN: ' + '<a href= "https://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=1&bin=' + [d.BIN] + '&go6=+GO+&requestid=0" target="_blank">' + [d.BIN] + '</a>' +'</br>' +								
 					'ADDRESS: '+ [d.Address] + ', ' + [d.Borough] + '</br>' +
 					'COMMUNITY DISTRICT: ' + d["Community Board"] + '</br>' +
@@ -563,15 +570,16 @@ var width = $("#map").width(),
 
 	});
 
-	d3.csv("https://raw.githubusercontent.com/NYCDOB/SWOs_Issued_Rescinded/gh-pages/data/SWOs_Issued_Rescinded_v3.csv",function(data){
-	//d3.csv("data/SWOs_Issued_Rescinded_v3.csv",function(data){
+	//d3.csv("https://raw.githubusercontent.com/NYCDOB/ActiveAHVs/gh-pages/data/activeAHVs.csv",function(data){
+	d3.csv("data/SWOs_Issued_Rescinded_v3.csv",function(data){
 				points = data.map(function(d){
 				d.latLng = [+d.Latitude,+d.Longitude];
 				d.bin = d.BIN;				
 				d.address = [d.Address];
 				d.CD = d["Community Board"];
 				d.Borough = d["Borough Name"];
-				//d.complaintNum = d["Complaint Number"];
+				d.complaintNum = d["Complaint Number"];
+				//d.vlcompdetlkey = d["Complaint Number (link to BIS)"].split('vlcompdetlkey=').pop().split(' target')[0];
 				//d.priorityCode = d["Priority Code"];
 				//d.complaintCatDesc = d["Complaint  Category Description"];
 				//d.complaintDisp = d["Complaint Disposition"];
@@ -587,6 +595,10 @@ var width = $("#map").width(),
 			return d;
 			});
 		pointsOverlay.addTo(map);
+
+		
+
+		
 
 		var filterActive = data.filter(function(d){
 			if (d.dispCat=="ACTIVE"){
@@ -699,7 +711,7 @@ var width = $("#map").width(),
 					}
 				} else {
 					return d;
-				}			
+				}				
 			});		
 			console.log(swoFltrVals);
 			d3.select("#swoCnt").html(swoFltrVals.length);
@@ -787,7 +799,7 @@ var width = $("#map").width(),
 					}
 				} else {
 					return d;
-				}			
+				}				
 			});		
 			console.log(swoFltrVals);
 			d3.select("#swoCnt").html(swoFltrVals.length);
@@ -941,6 +953,8 @@ var width = $("#map").width(),
 			'<tr>'+
 				'<td>Complaint Number:</td>'+
 				'<td>'+'<a href= "https://a810-bisweb.nyc.gov/bisweb/OverviewForComplaintServlet?complaintno=' + d["Complaint Number"] + '&go6=+GO+&requestid=0" target="_blank">' + d["Complaint Number"] + '</a>'+'</td>'+
+
+				
 			'</tr>'+
 			'<tr>'+
 				'<td>Last Disposition Date:</td>'+
@@ -960,8 +974,8 @@ var width = $("#map").width(),
 	$(function(){
 		table = $('#riskTable').DataTable({
 				"ajax": {
-					"url": "https://raw.githubusercontent.com/NYCDOB/SWOs_Issued_Rescinded/gh-pages/data/SWOs_Issued_Rescinded_v3.json",
-					//"url": "data/SWOs_Issued_Rescinded_v3.json",
+					//"url": "https://raw.githubusercontent.com/NYCDOB/ActiveAHVs/gh-pages/data/activeAHVsJson.json",
+					"url": "data/SWOs_Issued_Rescinded_v3.json",
 					"dataSrc": ""
 				},
 				order: [1,"asc"],
@@ -971,7 +985,7 @@ var width = $("#map").width(),
 				"scrollX": true,
 				"scrollCollapse": true,
 				"paging": false,
-				"sDom": "t", //removes header and footer (search bar and record count)
+				//"sDom": "t", //removes header and footer (search bar and record count)
 
 
 				columns: [
@@ -1046,7 +1060,7 @@ var width = $("#map").width(),
 });	
 	$('#dlData').click(function(e) {
 		e.preventDefault();  //stop the browser from following
-		window.location.href = 'https://nycdob.github.io/SWOs_Issued_Rescinded/data/SWOs_Issued_Rescinded_v3.csv';
+		window.location.href = 'data/SWOs_Issued_Rescinded_v3.csv';
 		
 	});		
 });	
