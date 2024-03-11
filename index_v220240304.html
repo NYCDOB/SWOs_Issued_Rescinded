@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html>
+  <title>Stop Work Orders</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
+  <link rel="icon" type="image/png" href="https://github.com/NYCDOB/EssentialActiveConstruction/blob/gh-pages/images/logo.png">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css' rel='stylesheet' type='text/css'/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.12/r-2.1.0/se-1.2.0/datatables.min.css">
+  <link rel="stylesheet" type="text/css" href="https://nycdob.github.io/ActiveShedPermits/build/nouislider.css" media="screen" />
+  <style>
+
+.filterTableButton {
+	margin-right:5px;
+}
+#riskTable_info{
+	font-weight:bolder !important;
+}
+.row{
+	padding-top: 5px;
+}
+body {
+	background-color: white;
+}
+.jobno{
+	margin-left: 20px;
+}
+#map {
+	height: 100%;
+	width: 100%;
+	pointer-events: all;
+}
+#table-container{
+	height: 890px;
+	width: 100%;
+	display: block;
+	background-color: white;
+}
+#img{
+	float: left;
+	height: 35px;
+	margin-left: 10px;
+	padding-right: 10px;
+}
+
+.zoomedPoint {
+	fill: red !important;
+	border: 1px double red !important;
+	background-color: red !important;
+	fill-opacity: 1;
+}
+
+#riskTable{
+	height: 100%;
+	font-size: 11px;
+}
+
+td.details-control {
+	background: url('https://datatables.net/examples/resources/details_open.png') no-repeat center center;
+	cursor: pointer;
+}
+tr.shown td.details-control {
+	background: url('https://datatables.net/examples/resources/details_close.png') no-repeat center center;
+	cursor: pointer;
+}
+
+
+.logo{
+	background-image: url('https://raw.githubusercontent.com/NYCDOB/CommunityProfiles_v2/gh-pages/dob_logo_white_transparent.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	float: right;
+	background-size: 80px;
+	height: 50px;
+	width: 110px;		 
+}
+.pointIssued{
+	fill: #EA9135;
+	fill-opacity: .7;
+}
+.pointRescinded{
+	fill: #679423;
+	fill-opacity: .7;
+}
+.pointFullSWO{
+	fill: #942323;
+	fill-opacity: .7;
+}
+.pointPartSWO{
+	fill: #EA9135;
+	fill-opacity: .7;
+}
+.tooltip {
+	color: #222;
+	background: #fff;
+	padding: .5em;
+	text-shadow: #f5f5f5 0 1px 0;
+	border-radius: 7px; 
+	box-shadow: 0px 0px 2px 0px #a6a6a6; 
+	opacity: 0.9; 
+	position: absolute;
+	visibility: hidden;
+}
+.dataTables_empty {
+  display:none;
+}
+.asofDate{
+	font-size:16px;
+}
+
+
+@media( max-width:850px){
+	.dobmain	{
+		padding-top:50px;
+	}
+	.ui{
+		visibility:hidden;
+	}
+	.container{
+		visibility:hidden;
+	}
+
+}
+.navbar-nav>li>a:hover{
+	background-color:#cccccc;
+}
+
+
+.ui{
+	top: 10px;
+	left: 50px;
+	padding: 4px;
+	position: absolute;
+	background-color: #fff;
+	border: 2px solid #707070;
+	border-radius: 7px;
+	width: 180px;
+}
+.dataTables_filter input { width: 150px }
+
+tr[role="row"]:hover td {
+	background-color: #e8e8e8;
+	cursor: pointer;
+}
+.rescindLegend {
+  position: relative;
+  top: 3px;
+  height: 12px;
+  width: 12px;
+  background-color: #679423;
+  border-radius: 50%;
+  display: inline-block;
+}
+.fullSWOLegend {
+  position: relative;
+  top: 3px;
+  height: 12px;
+  width: 12px;
+  background-color: #942323;
+  border-radius: 50%;
+  display: inline-block;
+}
+.partSWOLegend {
+  position: relative;
+  top: 3px;
+  height: 12px;
+  width: 12px;
+  background-color: #EA9135;
+  border-radius: 50%;
+  display: inline-block;
+}
+.legend_label{
+	padding-left: 10px;
+	font-size: 14px;
+	display: inline-block;
+}
+
+.sliderContainer {
+	top: 430px;
+	left: 12px;
+	padding: 8px;
+	position: absolute;
+	background: white;
+	background: rgba(255,255,255,0.8);
+	border: 2px solid #707070;
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	border-radius: 7px;
+	width: 425px;
+	height: 110px;
+}
+#ageSliderTxt {
+		text-align: center;
+		margin-bottom: 15px;
+		font-variant: small-caps;
+		font-size: 15px;
+		font-weight: bold;
+}
+#slider-range-value {
+
+}
+			#searchCourse {
+				padding-left:8px;
+				font-size:1.2em;
+			}
+
+			#searchCourse span {
+				padding-right: 17px;
+			}
+			#searchCourse label {
+				font-weight: 700;
+				color:#666666;
+			}
+			#searchCourse button {
+				padding: 2px 3px 2px 3px;
+				background: #46A6DD;
+				color: white;
+				font-size: 14px;
+				display: inline-block;
+			}
+			#searchCourse button:hover {
+				background: #002878;
+			}
+			#filterTxt {
+				font-size: 18px;
+				font-weight: 800;
+				color: #46A6DD;
+			}
+			.swoStats {
+				font-size: 26px;
+				font-weight: 800;
+				color: #cc0000;
+			}
+			#filterBar{
+				margin-top: 10px;
+			}
+.nowrap {
+  white-space: nowrap ;
+}
+#sourceTxt {
+  padding-top:55px;
+  padding-left: 10px;
+  text-align:left;
+}
+</style>
+<body>
+<div class="container">
+			<div class="navbar navbar-fixed-top" role="navigation" style="color:white;background-color:RGB(40,56,124);">
+			<a class="logo" href="https://www1.nyc.gov/site/buildings/index.page" target="_blank"> </a>
+				<div class="nav navbar-nav" style="margin-left:15px;margin-top:10px;font-size:26px;font-weight:bold;text-align:center;">
+					STOP WORK ORDERS - PAST 2 YEARS (ISSUED OR RESCINDED <span id="twoYrs"></span> - <span id="today"></span>)
+					
+				</div>
+			</div>
+</div>
+	<p class="small text-muted" id="sourceTxt">Built by DOB Analytics <a href="https://www1.nyc.gov/site/buildings/dob/analytics-reports.page" target="_blank">Dev Squad</a> | <a id="dlData" href="no-script.html">Download Data (csv)</a></p>
+<div class="row" id="filterBar" style="padding-top:5px; padding-bottom:5px;">  
+		<div class="col-md-12">
+			<form id="searchCourse" class=""> 
+			<span id="filterTxt">FILTER:</span>
+						<span class="nowrap">
+						<label for="">SWO Status:</label>
+							<select id="dropdownDisp">							
+								<option value='Active Full/Partial SWO' selected>Active Full/Partial SWO</option>
+								<option value='Active Full SWO'>Active Full SWO</option>
+								<option value='Active Partial SWO'>Active Partial SWO</option>
+								<option value='Rescinded'>Rescinded</option>
+								<option value='All'>All</option>
+							</select>
+						</span>
+						<span></span>
+						<span class="nowrap">
+						<label for="">Geography:</label>
+							<select id="dropdownGeo">
+								<option value='Borough' selected>Borough</option>
+								<option value='CD'>Community District</option>
+							</select>
+						</span>
+						<span></span>
+						<span id="fltrBoro" class="nowrap">
+						<label for="">Borough:</label>
+							<select id="dropdownBoro">
+								<option value='Citywide' selected>Citywide</option>
+								<option value='Manhattan'>Manhattan</option>
+								<option value='Bronx'>Bronx</option>
+								<option value='Brooklyn'>Brooklyn</option>
+								<option value='Queens'>Queens</option>
+								<option value='Staten Island'>Staten Island</option>
+							</select>
+						</span>
+						<span id="fltrCD" class="nowrap">
+						<label for="">Community District:</label>
+								<select id="dropdownCD">
+									<option value="0" selected>Please select...</option>
+										<option value="Manhattan" disabled>Manhattan</option>
+										<option value="101">101</option>
+										<option value="102">102</option>
+										<option value="103">103</option>
+										<option value="104">104</option>
+										<option value="105">105</option>
+										<option value="106">106</option>
+										<option value="107">107</option>
+										<option value="108">108</option>
+										<option value="109">109</option>
+										<option value="110">110</option>
+										<option value="111">111</option>
+										<option value="112">112</option>
+										<option value="164">164</option>
+										<option value="Bronx" disabled>Bronx</option>
+										<option value="201">201</option>
+										<option value="202">202</option>
+										<option value="203">203</option>
+										<option value="204">204</option>
+										<option value="205">205</option>
+										<option value="206">206</option>
+										<option value="207">207</option>
+										<option value="208">208</option>
+										<option value="209">209</option>
+										<option value="210">210</option>
+										<option value="211">211</option>
+										<option value="212">212</option>
+										<option value="226">226</option>
+										<option value="227">227</option>
+										<option value="228">228</option>
+										<option value="Brooklyn" disabled>Brooklyn</option>
+										<option value="301">301</option>
+										<option value="302">302</option>
+										<option value="303">303</option>
+										<option value="304">304</option>
+										<option value="305">305</option>
+										<option value="306">306</option>
+										<option value="307">307</option>
+										<option value="308">308</option>
+										<option value="309">309</option>
+										<option value="310">310</option>
+										<option value="311">311</option>
+										<option value="312">312</option>
+										<option value="313">313</option>
+										<option value="314">314</option>
+										<option value="315">315</option>
+										<option value="316">316</option>
+										<option value="317">317</option>
+										<option value="318">318</option>
+										<option value="355">355</option>
+										<option value="356">356</option>
+										<option value="Queens" disabled>Queens</option>
+										<option value="401">401</option>
+										<option value="402">402</option>
+										<option value="403">403</option>
+										<option value="404">404</option>
+										<option value="405">405</option>
+										<option value="406">406</option>
+										<option value="407">407</option>
+										<option value="408">408</option>
+										<option value="409">409</option>
+										<option value="410">410</option>
+										<option value="411">411</option>
+										<option value="412">412</option>
+										<option value="413">413</option>
+										<option value="414">414</option>
+										<option value="480">480</option>
+										<option value="481">481</option>
+										<option value="482">482</option>
+										<option value="483">483</option>
+										<option value="484">484</option>
+										<option value="Staten Island" disabled>Staten Island</option>
+										<option value="501">501</option>
+										<option value="502">502</option>
+										<option value="503">503</option>
+										<option value="595">595</option>
+								</select>
+						</span>
+						<span id="fltrYear" class="nowrap">
+						<label for="">Last Disposition:</label>
+								<select id="dropdownYear">
+									<option value="Past 2 Years" selected>Past 2 Years</option>
+								</select>
+						</span>
+						<span></span> 
+						<span class="nowrap">
+						<button type="button" class="filterBtn" id="fltr_btn"> APPLY </button>
+						<button type="button" class="clearBtn" id="clr_btn"> CLEAR </button>
+						</span>
+						<span></span>
+						<span></span>
+						<span class="nowrap"><span id="filterTxt">SWO COUNT:</span><span class="swoStats" id="swoCnt"></span></span>
+			</form>				
+	</div>
+</div>
+<div class="container-fluid dobmain" style="margin-top:5px;">
+	<div class="row">
+		  <div class="col-lg-9" style="height:85vh">
+			  <div class="chart-stage" id="map-container" style="border:1px solid black;height:100%;width:100%">
+				<div id="map">
+					<div id="ui-container" class="ui" style="z-index: 401">							  
+						<span class="fullSWOLegend"></span><span class="legend_label">Active Full SWOs</span>							
+						<br/>	
+						<span class="partSWOLegend"></span><span class="legend_label">Active Partial SWOs</span>							
+						<br/>						
+						<span class="rescindLegend"></span><span class="legend_label">Rescinded SWOs</span>
+					</div>					
+				</div>
+			  </div>
+		  </div>
+		 				
+			  <div class="col-lg-3" style="height:85vh">			  
+				<div class="newchart" style="padding:5px 5px 0px 5px;background-color:white;border:1px solid black;height:100%;width:100%">
+		  			<div id="loadpage" style="position:absolute; 
+						left:0px; top:100px; 
+						layer-background-color:white; height:100%; 
+						width:100%;"> 
+						  <p align="center" style="font-size: large;">       
+							<B>Loading ... Please wait!</B><br/><br/>
+							<!-- <img src="data/spinner.gif"> -->
+							<img src="https://nycdob.github.io/SWOs_Issued_Rescinded/data/spinner.gif"></img>
+						  </p>
+					</div>
+				  <div class="" id="">				  
+					<table id="riskTable" class="display" style="width:100%;">	
+						<thead>
+							<tr>
+								<th></th>
+								<th>BIN</th>
+								<th>ADDRESS</th>
+								<th>BOROUGH</th>
+								<th>STATUS</th>
+								<th>DISPOSITION</th>
+							</tr>
+						</thead>					
+					</table>
+				  </div>
+				</div>
+			  </div>
+	</div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.9/d3.min.js"></script>
+<script src="https://nycdob.github.io/EssentialActiveConstruction/Leaflet.D3SvgOverlay-master/L.D3SvgOverlay.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdn.datatables.net/v/dt/dt-1.10.12/r-2.1.0/se-1.2.0/datatables.min.js"  type="text/javascript" charset="utf8" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.6/nv.d3.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/rowgroup/1.1.1/js/dataTables.rowGroup.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.6/js/dataTables.buttons.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.html5.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/plug-ins/1.10.20/api/fnSortNeutral.js"></script>
+<script src="https://nycdob.github.io/ActiveShedPermits/build/nouislider.js"></script>
+<script src="https://nycdob.github.io/ActiveShedPermits/build/wNumb.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-format@3"></script>
+<script>
+
+$(document).ready(function(){
+
+
+	var today = new Date();
+	var dd = today.getDate();
+	var mm = today.getMonth()+1;
+	var yyyy = today.getFullYear();
+	today = mm + '/' + dd + '/' + yyyy;	
+	d3.select("#today").html(today);
+	
+	var twoYrsAge = new Date();
+	var yearMinusTwo = yyyy-2;
+	twoYrsAge = mm + '/' + dd + '/' + yearMinusTwo;
+	d3.select("#twoYrs").html(twoYrsAge);
+	
+	var latlong = [];
+	var selection = [];
+	var formatDate = d3.time.format("%-m/%-d/%Y").parse;
+    L.Control.include({
+      _refocusOnMap: L.Util.falseFn // Do nothing.
+    });	
+var map = L.map('map').setView([40.713312, -73.977407], 14);
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attributions">CARTO</a>'}).addTo(map);
+
+var tooltip = d3.select('#map').append('div')
+	.on('mouseover', function(d, i){
+		tooltip.transition().duration(0);
+	})
+	.on('mouseout', function(d, i){
+		tooltip.transition().delay(500).style('visibility', 'hidden');
+	})
+	.attr('class', 'tooltip');
+var width = $("#map").width(),
+	height = $("#map").height(),
+	points = [],
+	table_map = [],
+	filteredData,
+	latLngs = [],
+	previousColor,
+	yearVal = '',
+	dispVal = 'ACTIVE',
+	table,
+	vCD = new Set(),
+	vYears = new Set();
+
+	var pointsOverlay = L.d3SvgOverlay(function(sel,proj){
+	var pointsUpd = sel.selectAll('circle').data(points);	
+	pointsUpd.enter()
+		.append('circle')		
+		.attr("bin",function(d){return d.BIN})
+		.attr('cx',function(d){return proj.latLngToLayerPoint(d.latLng).x;})
+		.attr('cy',function(d){return proj.latLngToLayerPoint(d.latLng).y;})
+		//.attr('class', function(d){	return doClassName(d.Category)})
+		<!-- .attr('class', function(d){ -->
+			<!-- return "point"; -->
+		<!-- }) -->
+		
+		<!-- .attr('class', function(d){ -->
+			<!-- if(d.dispCat == 'ACTIVE'){ -->
+				<!-- return "pointIssued"; -->
+			<!-- } else { -->
+				<!-- return "pointRescinded"; -->
+			<!-- } -->
+		<!-- }) -->
+
+		.attr('class', function(d){
+			if(d.dispCode == 'A3'){
+				return "pointFullSWO";
+			} else if(d.dispCode == 'L1'){
+				return "pointPartSWO";
+			} else if(d.dispCat == 'ACTIVE'){
+				return "pointIssued";
+			} else {
+				return "pointRescinded";
+			}
+		})
+		
+		.on('click', function(d){
+		
+			if(d3.select(this).style("fill-opacity") != 0){
+				tooltip.style("visibility", "visible");
+				tooltip.html(
+					//'STATUS: ' + d["Disposition Category"] + '</br>' +
+					'COMPLAINT NUMBER: ' + '<a href= "https://a810-bisweb.nyc.gov/bisweb/OverviewForComplaintServlet?complaintno=' + d["Complaint Number"] + '&go6=+GO+&requestid=0" target="_blank">' + d["Complaint Number"] + '</a>' + '</br>' +	
+					'BIN: ' + '<a href= "https://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=1&bin=' + [d.BIN] + '&go6=+GO+&requestid=0" target="_blank">' + [d.BIN] + '</a>' +'</br>' +								
+					'ADDRESS: '+ [d.Address] + ', ' + [d.Borough] + '</br>' +
+					'COMMUNITY DISTRICT: ' + d["Community Board"] + '</br>' +
+					'LAST DISPOSITION DATE: ' + d["Last Disposition Date"] + '</br>' +
+					'LAST DISPOSITION CODE: ' + d["Disposition Code Description"]					
+				)
+				if (d3.event.pageX > (width - 200)) {
+				   tooltip.style("left", (d3.event.pageX - 350) + "px");
+				} else {
+				   tooltip.style("left", (d3.event.pageX + 20) + "px")
+						.style("top", (d3.event.pageY -30) + "px");
+				}
+				if (d3.event.pageY > (height - 150)) {
+				   tooltip.style("top", (d3.event.pageY -100) + "px");
+				} else {
+				   tooltip.style("top", (d3.event.pageY -30) + "px");
+				}
+			}
+
+		})
+		.on("mouseover", function(d, i){
+			previousColor = d3.select(this).style("fill");
+			tooltip.transition().duration(0); 
+			$(this).attr("style", "cursor: pointer; fill: #eef442; fill-opacity: 0.7;");			
+		})
+		.on("mouseout", function(d, i){			
+			d3.select(this).style("fill",previousColor);
+			d3.select(this).style( "fill-opacity",0.7);
+			return tooltip.transition().delay(500).style("visibility", "hidden");
+		});		
+		pointsUpd.attr('r', 5 / proj.scale);
+
+
+	});
+
+	//d3.csv("https://raw.githubusercontent.com/NYCDOB/ActiveAHVs/gh-pages/data/activeAHVs.csv",function(data){
+	d3.csv("https://raw.githubusercontent.com/NYCDOB/SWOs_Issued_Rescinded/gh-pages/data/SWOs_Issued_Rescinded_v3.csv",function(data){
+				points = data.map(function(d){
+				d.latLng = [+d.Latitude,+d.Longitude];
+				d.bin = d.BIN;				
+				d.address = [d.Address];
+				d.CD = d["Community Board"];
+				d.Borough = d["Borough Name"];
+				d.complaintNum = d["Complaint Number"];
+				//d.vlcompdetlkey = d["Complaint Number (link to BIS)"].split('vlcompdetlkey=').pop().split(' target')[0];
+				//d.priorityCode = d["Priority Code"];
+				//d.complaintCatDesc = d["Complaint  Category Description"];
+				//d.complaintDisp = d["Complaint Disposition"];
+				//d.inspDate = formatDate(d["Inspection Date"]);
+				d.dispDate = formatDate(d["Last Disposition Date"]);
+				d.dispCode = d["Disposition Code"];
+				d.dispCodeDesc = d["Disposition Code Description"];
+				//d.daysSWOIssued = d["Days Since SWO Issued"];
+				d.dispCat = d["Disposition Category"];
+				d.dispYear = d["Last Disposition Year"];
+				(d["Last Disposition Year"])?vYears.add(d["Last Disposition Year"]):0;
+				//(d["Community Board"])?vCD.add(d["Community Board"]):0;
+			return d;
+			});
+		pointsOverlay.addTo(map);
+
+		
+
+		
+
+		var filterActive = data.filter(function(d){
+			if (d.dispCat=="ACTIVE"){
+				return d;
+			}
+		})
+
+		d3.select("#swoCnt").html(filterActive.length);
+		d3.selectAll(".pointFullSWO").style("display", "block");
+		d3.selectAll(".pointPartSWO").style("display", "block");
+		d3.selectAll(".pointRescinded").style("display", "none");
+
+
+		$("#fltrBoro").show();
+		$("#fltrCD").hide();
+		
+		$("#dropdownGeo").change(function() {
+			if ($(this).val() === 'Borough') {	
+				$("#fltrBoro").show();
+				$("#fltrCD").hide();
+				$("#dropdownBoro").val("Citywide");
+			} else {
+				$("#fltrBoro").hide();
+				$("#fltrCD").show();
+				$("#dropdownCD").val("0");
+			}
+		})
+
+
+		$("#dropdownYear").change(function(){
+			if($(this).val() === 'Past 2 Years'){
+				yearVal = '';
+			} else {
+				yearVal = $(this).val();	
+			}
+			console.log(yearVal);
+		})
+		
+		$("#dropdownDisp").change(function(){
+			if($(this).val() === 'All'){
+				dispVal = '';
+			}else {
+				dispVal = $(this).val();	
+			}
+			console.log(dispVal);
+		})		
+			
+		function fBuild(n,q){
+			d=document.querySelector("#"+n);
+			q.forEach(
+			function(da){
+			d1=document.createElement("option");
+			d1.value=da;
+			d1.text=da;
+			d.appendChild(d1);})
+		}			
+		fBuild("dropdownYear",Array.from(vYears).sort());		
+		fBuild("dropdownCD",Array.from(vCD).sort());
+
+		
+		function numSWOs_boro(){
+			swoFltrVals = data.filter(function(d){
+				if(("Citywide" != document.querySelector('#dropdownBoro').value) && ("Past 2 Years" != document.querySelector('#dropdownYear').value) && ("All" != document.querySelector('#dropdownDisp').value) && ("Active Full/Partial SWO" != document.querySelector('#dropdownDisp').value)){			
+					if((d.Borough==document.querySelector('#dropdownBoro').value) && (d.dispYear==document.querySelector('#dropdownYear').value) && (d.dispCodeDesc==document.querySelector('#dropdownDisp').value)){
+						return d;
+					}
+				} else if (("Citywide" === document.querySelector('#dropdownBoro').value) && ("Past 2 Years" != document.querySelector('#dropdownYear').value) && ("All" != document.querySelector('#dropdownDisp').value) && ("Active Full/Partial SWO" != document.querySelector('#dropdownDisp').value)){					
+					if((d.dispYear==document.querySelector('#dropdownYear').value) && (d.dispCodeDesc==document.querySelector('#dropdownDisp').value)){
+						return d;
+					}
+				} else if(("Citywide" != document.querySelector('#dropdownBoro').value) && ("Past 2 Years" === document.querySelector('#dropdownYear').value) && ("All" === document.querySelector('#dropdownDisp').value)){
+					if(d.Borough==document.querySelector('#dropdownBoro').value){
+						return d;
+					}
+				} else if(("Citywide" != document.querySelector('#dropdownBoro').value) && ("Past 2 Years" === document.querySelector('#dropdownYear').value) && ("Active Full/Partial SWO" === document.querySelector('#dropdownDisp').value)){
+					if((d.Borough==document.querySelector('#dropdownBoro').value) && (d.dispCat == 'ACTIVE')){
+						return d;
+					}
+				} else if(("Citywide" != document.querySelector('#dropdownBoro').value) && ("Past 2 Years" === document.querySelector('#dropdownYear').value) && ("All" != document.querySelector('#dropdownDisp').value) && ("Active Full/Partial SWO" != document.querySelector('#dropdownDisp').value)){
+					if((d.Borough==document.querySelector('#dropdownBoro').value) && (d.dispCodeDesc==document.querySelector('#dropdownDisp').value)){
+						return d;
+					}
+				} else if(("Citywide" === document.querySelector('#dropdownBoro').value) && ("Past 2 Years" != document.querySelector('#dropdownYear').value) && ("All" === document.querySelector('#dropdownDisp').value)){
+					if(d.dispYear==document.querySelector('#dropdownYear').value){
+						return d;
+					}
+				} else if(("Citywide" === document.querySelector('#dropdownBoro').value) && ("Past 2 Years" != document.querySelector('#dropdownYear').value) && ("Active Full/Partial SWO" === document.querySelector('#dropdownDisp').value)){
+					if((d.dispYear==document.querySelector('#dropdownYear').value) && (d.dispCat == 'ACTIVE')){
+						return d;
+					}
+				} else if(("Citywide" === document.querySelector('#dropdownBoro').value) && ("Past 2 Years" === document.querySelector('#dropdownYear').value) && ("All" != document.querySelector('#dropdownDisp').value) && ("Active Full/Partial SWO" != document.querySelector('#dropdownDisp').value)){
+					if(d.dispCodeDesc==document.querySelector('#dropdownDisp').value){
+						return d;
+					}
+				} else if(("Citywide" != document.querySelector('#dropdownBoro').value) && ("Past 2 Years" != document.querySelector('#dropdownYear').value) && ("All" === document.querySelector('#dropdownDisp').value)){
+					if((d.Borough==document.querySelector('#dropdownBoro').value) && (d.dispYear==document.querySelector('#dropdownYear').value)){
+						return d;
+					}
+				} else if(("Citywide" != document.querySelector('#dropdownBoro').value) && ("Past 2 Years" != document.querySelector('#dropdownYear').value) && ("Active Full/Partial SWO" === document.querySelector('#dropdownDisp').value)){
+					if((d.Borough==document.querySelector('#dropdownBoro').value) && (d.dispYear==document.querySelector('#dropdownYear').value) && (d.dispCat == 'ACTIVE')){
+						return d;
+					}
+				} else if(("Citywide" != document.querySelector('#dropdownBoro').value) && ("Past 2 Years" === document.querySelector('#dropdownYear').value) && ("Active Full/Partial SWO" === document.querySelector('#dropdownDisp').value)){
+					if((d.Borough==document.querySelector('#dropdownBoro').value) && (d.dispCat == 'ACTIVE')){
+						return d;
+					}
+				} else if(("Citywide" === document.querySelector('#dropdownBoro').value) && ("Past 2 Years" === document.querySelector('#dropdownYear').value) && ("Active Full/Partial SWO" === document.querySelector('#dropdownDisp').value)){
+					if(d.dispCat == 'ACTIVE'){
+						return d;
+					}
+				} else {
+					return d;
+				}				
+			});		
+			console.log(swoFltrVals);
+			d3.select("#swoCnt").html(swoFltrVals.length);
+			
+			selectedBINs = swoFltrVals.map(function(d){
+				return d.bin
+			})
+			
+			latLngs = swoFltrVals.map(function(d){
+				return d.latLng;
+			})
+			
+			points = swoFltrVals.map(function(d){
+				return d;
+			})
+
+
+				if ("Active Full/Partial SWO" === document.querySelector('#dropdownDisp').value){
+					refreshTableAllActiveSWO(selectedBINs,yearVal);
+				} else {
+					refreshTable(selectedBINs,yearVal,dispVal);
+				}
+
+			
+			map.removeLayer(pointsOverlay);
+			pointsOverlay.addTo(map);
+			zoom(latLngs);
+			//refreshTable(selectedBINs,yearVal,dispVal);
+			map.on('resize', function(){
+				map.invalidateSize();		
+			});
+		
+		}
+		
+		
+		function numSWOs_cd(){
+			swoFltrVals = data.filter(function(d){
+				if(("0" != document.querySelector('#dropdownCD').value) && ("Past 2 Years" != document.querySelector('#dropdownYear').value) && ("All" != document.querySelector('#dropdownDisp').value) && ("Active Full/Partial SWO" != document.querySelector('#dropdownDisp').value)){			
+					if((d.CD==document.querySelector('#dropdownCD').value) && (d.dispYear==document.querySelector('#dropdownYear').value) && (d.dispCodeDesc==document.querySelector('#dropdownDisp').value)){
+						return d;
+					}
+				} else if (("0" === document.querySelector('#dropdownCD').value) && ("Past 2 Years" != document.querySelector('#dropdownYear').value) && ("All" != document.querySelector('#dropdownDisp').value) && ("Active Full/Partial SWO" != document.querySelector('#dropdownDisp').value)){					
+					if((d.dispYear==document.querySelector('#dropdownYear').value) && (d.dispCodeDesc==document.querySelector('#dropdownDisp').value)){
+						return d;
+					}
+				} else if(("0" != document.querySelector('#dropdownCD').value) && ("Past 2 Years" === document.querySelector('#dropdownYear').value) && ("All" === document.querySelector('#dropdownDisp').value)){
+					if(d.CD==document.querySelector('#dropdownCD').value){
+						return d;
+					}
+				} else if(("0" != document.querySelector('#dropdownCD').value) && ("Past 2 Years" === document.querySelector('#dropdownYear').value) && ("Active Full/Partial SWO" === document.querySelector('#dropdownDisp').value)){
+					if((d.CD==document.querySelector('#dropdownCD').value) && (d.dispCat == 'ACTIVE')){
+						return d;
+					}
+				} else if(("0" != document.querySelector('#dropdownCD').value) && ("Past 2 Years" === document.querySelector('#dropdownYear').value) && ("All" != document.querySelector('#dropdownDisp').value) && ("Active Full/Partial SWO" != document.querySelector('#dropdownDisp').value)){
+					if((d.CD==document.querySelector('#dropdownCD').value) && (d.dispCodeDesc==document.querySelector('#dropdownDisp').value)){
+						return d;
+					}
+				} else if(("0" === document.querySelector('#dropdownCD').value) && ("Past 2 Years" != document.querySelector('#dropdownYear').value) && ("All" === document.querySelector('#dropdownDisp').value)){
+					if(d.dispYear==document.querySelector('#dropdownYear').value){
+						return d;
+					}
+				} else if(("0" === document.querySelector('#dropdownCD').value) && ("Past 2 Years" != document.querySelector('#dropdownYear').value) && ("Active Full/Partial SWO" === document.querySelector('#dropdownDisp').value)){
+					if((d.dispYear==document.querySelector('#dropdownYear').value) && (d.dispCat == 'ACTIVE')){
+						return d;
+					}
+				} else if(("0" === document.querySelector('#dropdownCD').value) && ("Past 2 Years" === document.querySelector('#dropdownYear').value) && ("All" != document.querySelector('#dropdownDisp').value) && ("Active Full/Partial SWO" != document.querySelector('#dropdownDisp').value)){
+					if(d.dispCodeDesc==document.querySelector('#dropdownDisp').value){
+						return d;
+					}
+				} else if(("0" != document.querySelector('#dropdownCD').value) && ("Past 2 Years" != document.querySelector('#dropdownYear').value) && ("All" === document.querySelector('#dropdownDisp').value)){
+					if((d.CD==document.querySelector('#dropdownCD').value) && (d.dispYear==document.querySelector('#dropdownYear').value)){
+						return d;
+					}
+				} else if(("0" != document.querySelector('#dropdownCD').value) && ("Past 2 Years" != document.querySelector('#dropdownYear').value) && ("Active Full/Partial SWO" === document.querySelector('#dropdownDisp').value)){
+					if((d.CD==document.querySelector('#dropdownCD').value) && (d.dispYear==document.querySelector('#dropdownYear').value) && (d.dispCat == 'ACTIVE')){
+						return d;
+					}
+				} else if(("0" != document.querySelector('#dropdownCD').value) && ("Past 2 Years" === document.querySelector('#dropdownYear').value) && ("Active Full/Partial SWO" === document.querySelector('#dropdownDisp').value)){
+					if((d.CD==document.querySelector('#dropdownCD').value) && (d.dispCat == 'ACTIVE')){
+						return d;
+					}
+				} else if(("0" === document.querySelector('#dropdownCD').value) && ("Past 2 Years" === document.querySelector('#dropdownYear').value) && ("Active Full/Partial SWO" === document.querySelector('#dropdownDisp').value)){
+					if((d.dispCat == 'ACTIVE')){
+						return d;
+					}
+				} else {
+					return d;
+				}				
+			});		
+			console.log(swoFltrVals);
+			d3.select("#swoCnt").html(swoFltrVals.length);
+			
+			selectedBINs = swoFltrVals.map(function(d){
+				return d.bin
+			})
+			
+			latLngs = swoFltrVals.map(function(d){
+				return d.latLng;
+			})
+			
+			points = swoFltrVals.map(function(d){
+				return d;
+			})
+
+
+				if ("Active Full/Partial SWO" === document.querySelector('#dropdownDisp').value){
+					refreshTableAllActiveSWO(selectedBINs,yearVal);
+				} else {
+					refreshTable(selectedBINs,yearVal,dispVal);
+				}
+
+			
+			map.removeLayer(pointsOverlay);
+			pointsOverlay.addTo(map);
+			zoom(latLngs);
+			//refreshTable(selectedBINs,yearVal,dispVal);
+			map.on('resize', function(){
+				map.invalidateSize();		
+			});
+		
+		}
+		
+
+		var filterDataClick = document.getElementById('fltr_btn');
+		filterDataClick.onclick = function(){
+			$('#swoLoc').text(document.querySelector("#dropdownCD").value);
+			$('#swoYear').text(document.querySelector("#dropdownYear").value);
+			
+			if ($("#dropdownGeo").val() === 'Borough') {
+				numSWOs_boro();
+			} else {
+				numSWOs_cd();
+			}
+
+			clearTableSlct();
+		}
+
+
+		var clearFilterClick = document.getElementById('clr_btn');
+		clearFilterClick.onclick = function(){	
+			location.reload();
+		}
+
+
+		function refreshTableAllActiveSWO(selectedBINs,yearVal){
+			var dTable = $('#riskTable').DataTable();
+			console.log(selectedBINs);
+			$('#riskTable').DataTable({"retrieve": true,"iDisplayLength": 100, "search": {regex: true}}).column(1).search(selectedBINs.join("|"),true,false);//.draw().column(4).search(yearVal).draw();
+			//dTable.column(5).search(yearVal);
+			//dTable.column(4).search(dispVal).column(5).search(yearVal).draw();
+			$('#riskTable').DataTable({"retrieve": true,"iDisplayLength": 100, "search": {regex: true}}).column(4).search("Active Full SWO|Active Partial SWO", true, false ).column(5).search(yearVal).draw();
+		}
+		
+		
+		function refreshTable(selectedBINs,yearVal,dispVal){
+			var dTable = $('#riskTable').DataTable();
+			console.log(selectedBINs);
+			$('#riskTable').DataTable({"retrieve": true,"iDisplayLength": 100, "search": {regex: true}}).column(1).search(selectedBINs.join("|"),true,false);//.draw().column(4).search(yearVal).draw();
+			//dTable.column(5).search(yearVal).draw();
+			dTable.column(4).search(dispVal).column(5).search(yearVal).draw();
+		}	
+
+		function clearTableSlct(){
+			$('#riskTable').DataTable().rows( '.selected' ).nodes().to$().removeClass( 'selected' );
+		}
+		
+
+	function zoom(latLngs){
+		if (latLngs === undefined || latLngs == 0){	
+			window.alert("No results found. Please adjust query criteria");		
+			$('#clr_btn').trigger("click"); 
+			}
+		else {
+		polyline = L.polyline(latLngs,{opacity:0}).addTo(map);
+		map.fitBounds(polyline.getBounds());
+		map.removeLayer(polyline);
+		}
+	};
+
+	function highlightPoint(r2){
+		a1=document.querySelector("g");
+		a2 = a1.querySelectorAll(".zoomedPoint");
+		for(t=0; t < a2.length; t++) {
+			a2[t].className.baseVal = a2[t].className.baseVal.replace(/\bzoomedPoint\b/g, "");
+		}
+		q1=a1.querySelector('circle[bin="'+r2+'"]');
+		arr = q1.className.baseVal.split(" ");
+		  if (arr.indexOf("zoomedPoint") == -1) {
+			q1.className.baseVal += " " + "zoomedPoint";		  
+		  }	
+		console.log(q1);
+		//highlights zoomedPoint for duplicate BINs
+		d3.selectAll(".pointFullSWO")
+			.style("fill", function(d){
+				if([d.BIN] == r2)
+					{return "red"}
+				else
+					{return "#942323"};
+			})
+			
+		d3.selectAll(".pointPartSWO")
+			.style("fill", function(d){
+				if([d.BIN] == r2)
+					{return "red"}
+				else
+					{return "#EA9135"};
+			})
+			
+		d3.selectAll(".pointRescinded")
+			.style("fill", function(d){
+				if([d.BIN] == r2)
+					{return "red"}
+				else
+					{return "#679423"};
+			})
+
+	}
+
+	
+	function zoomToSelected(latlong){
+			map.setView(latlong,17);
+			
+	}	
+
+	function zoomFullExtent(){
+		map.setView([40.71400378719669, -73.97238262209976], 11);
+		var u2=document.querySelector(".zoomedPoint");
+		if (u2) {
+			u2.className.baseVal = u2.className.baseVal.replace(/\bzoomedPoint\b/g, "");
+		}
+	}
+	map.on('resize', function(){
+		map.invalidateSize();		
+	});
+	
+		
+	function format ( d ) {
+		return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'+
+			'<tr>'+
+				'<td>Complaint Number:</td>'+
+				'<td>'+'<a href= "https://a810-bisweb.nyc.gov/bisweb/OverviewForComplaintServlet?complaintno=' + d["Complaint Number"] + '&go6=+GO+&requestid=0" target="_blank">' + d["Complaint Number"] + '</a>'+'</td>'+
+
+				
+			'</tr>'+
+			'<tr>'+
+				'<td>Last Disposition Date:</td>'+
+				'<td>'+d["Last Disposition Date"]+'</td>'+
+			'</tr>'+
+			'<tr>'+
+				'<td>Last Disposition Code:</td>'+
+				'<td>'+d["Disposition Code Description"]+'</td>'+
+			'</tr>'+
+			'<tr>'+
+				'<td>Community District:</td>'+
+				'<td>'+d["Community Board"]+'</td>'+
+			'</tr>'+			
+		'</table>';
+	}	
+	
+	$(function(){
+		table = $('#riskTable').DataTable({
+				"ajax": {
+					//"url": "https://raw.githubusercontent.com/NYCDOB/ActiveAHVs/gh-pages/data/activeAHVsJson.json",
+					"url": "https://raw.githubusercontent.com/NYCDOB/SWOs_Issued_Rescinded/gh-pages/data/SWOs_Issued_Rescinded_v3.json",
+					"dataSrc": ""
+				},
+				order: [1,"asc"],
+				lengthChange: false,
+				info: false,
+				"scrollY": "70vh",
+				"scrollX": true,
+				"scrollCollapse": true,
+				"paging": false,
+				//"sDom": "t", //removes header and footer (search bar and record count)
+
+
+				columns: [
+					{
+						"className": 'details-control',
+						"orderable": false,
+						"data": null,
+						"defaultContent": ''
+					},
+					{	data: "BIN"
+					},
+					{	data: "Address"
+					},
+					{ 	data: "Borough Name" 
+					},
+					{	data: "Disposition Code Description"
+					},
+					{	data: "Last Disposition Year"
+					}
+				]
+
+				
+			});
+			table.columns(4).search("ACTIVE").draw();
+			$('#riskTable').on('draw.dt', function(){
+				$('#loadpage').hide();
+			})
+
+			
+
+		$('#riskTable tbody').on( 'click', 'tr :not(td.details-control)', function (e) {
+			theParent=this.parentNode;
+			if (!theParent.hasAttribute("role")  ) {
+				return; 
+			}			
+			if ( theParent.classList.contains("selected") ) {  
+				theParent.classList.remove('selected');	
+				
+				zoomFullExtent();
+
+			} else {
+				j2=document.querySelectorAll(".selected");
+				for(j=0;j<j2.length;j++) {
+					j2[j].classList.remove("selected");
+				}
+				$(theParent).addClass('selected');
+				highlightPoint(table.row(this).data().BIN);	
+				mylatlong=[table.row(this).data().Latitude,table.row(this).data().Longitude]
+				zoomToSelected(mylatlong);
+				console.log(table.row(this).data().BIN);
+			}
+		});
+		$('#riskTable tbody').on('click', 'td.details-control', function (e) {
+			var tr = $(this).closest('tr');
+			var row = table.row( tr );
+			if ( row.child.isShown() ) {
+				row.child.hide();
+				tr.removeClass('shown');
+			}
+			else {
+					row.child( format(row.data()) ).show();
+				tr.addClass('shown');
+			}
+		});
+
+
+
+
+
+	});	
+
+});	
+	$('#dlData').click(function(e) {
+		e.preventDefault();  //stop the browser from following
+		window.location.href = 'https://nycdob.github.io/SWOs_Issued_Rescinded/data/SWOs_Issued_Rescinded_v3.csv';
+		
+	});		
+});	
+</script>
+</body>
+</html>
