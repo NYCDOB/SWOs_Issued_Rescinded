@@ -5111,6 +5111,20 @@
  },
  {
 	"Borough Name": "Manhattan",
+	"Complaint Number": "1641780",
+	"BIN": "1090860",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.71373",
+	"Longitude": "-74.0098",
+	"Address": "43          PARK PLACE",
+	"Community Board": "101"
+ },
+ {
+	"Borough Name": "Manhattan",
 	"Complaint Number": "1641786",
 	"BIN": "1048364",
 	"Disposition Code": "L2",
@@ -6553,20 +6567,6 @@
  },
  {
 	"Borough Name": "Manhattan",
-	"Complaint Number": "1665592",
-	"BIN": "1013617",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.75475",
-	"Longitude": "-73.99305",
-	"Address": "323         WEST 37 STREET",
-	"Community Board": "104"
- },
- {
-	"Borough Name": "Manhattan",
 	"Complaint Number": "1665712",
 	"BIN": "1027016",
 	"Disposition Code": "L2",
@@ -7404,20 +7404,6 @@
 	"Longitude": "-74.00865",
 	"Address": "223         BROADWAY",
 	"Community Board": "101"
- },
- {
-	"Borough Name": "Manhattan",
-	"Complaint Number": "1667917",
-	"BIN": "1048273",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.78234",
-	"Longitude": "-73.95306",
-	"Address": "150         EAST 91 STREET",
-	"Community Board": "108"
  },
  {
 	"Borough Name": "Manhattan",
@@ -30843,6 +30829,20 @@
  },
  {
 	"Borough Name": "Manhattan",
+	"Complaint Number": "1715564",
+	"BIN": "1083638",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.74973",
+	"Longitude": "-73.9865",
+	"Address": "31          WEST   34 STREET",
+	"Community Board": "105"
+ },
+ {
+	"Borough Name": "Manhattan",
 	"Complaint Number": "1715605",
 	"BIN": "1061643",
 	"Disposition Code": "L2",
@@ -31022,6 +31022,20 @@
 	"Longitude": "-74.00625",
 	"Address": "803         GREENWICH STREET",
 	"Community Board": "102"
+ },
+ {
+	"Borough Name": "Manhattan",
+	"Complaint Number": "1716098",
+	"BIN": "1025399",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.76459",
+	"Longitude": "-73.98541",
+	"Address": "313         WEST 53 STREET",
+	"Community Board": "104"
  },
  {
 	"Borough Name": "Manhattan",
@@ -32439,20 +32453,6 @@
  },
  {
 	"Borough Name": "Manhattan",
-	"Complaint Number": "1718963",
-	"BIN": "1082034",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "03/13/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.71523",
-	"Longitude": "-74.00974",
-	"Address": "80          WEST BROADWAY",
-	"Community Board": "101"
- },
- {
-	"Borough Name": "Manhattan",
 	"Complaint Number": "1719058",
 	"BIN": "1000863",
 	"Disposition Code": "L2",
@@ -32495,49 +32495,7 @@
  },
  {
 	"Borough Name": "Manhattan",
-	"Complaint Number": "1719544",
-	"BIN": "1061432",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "03/23/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.82668",
-	"Longitude": "-73.94615",
-	"Address": "1763        AMSTERDAM AVENUE",
-	"Community Board": "109"
- },
- {
-	"Borough Name": "Manhattan",
-	"Complaint Number": "1719545",
-	"BIN": "1061432",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "03/23/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.82668",
-	"Longitude": "-73.94615",
-	"Address": "1763        AMSTERDAM AVENUE",
-	"Community Board": "109"
- },
- {
-	"Borough Name": "Manhattan",
 	"Complaint Number": "1719547",
-	"BIN": "1061432",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "03/20/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.82668",
-	"Longitude": "-73.94615",
-	"Address": "1763        AMSTERDAM AVENUE",
-	"Community Board": "109"
- },
- {
-	"Borough Name": "Manhattan",
-	"Complaint Number": "1719571",
 	"BIN": "1061432",
 	"Disposition Code": "L2",
 	"Disposition Code Description": "Rescinded",
@@ -33052,6 +33010,20 @@
 	"Longitude": "-73.94467",
 	"Address": "4           EAST  119 STREET",
 	"Community Board": "111"
+ },
+ {
+	"Borough Name": "Manhattan",
+	"Complaint Number": "1720993",
+	"BIN": "1023750",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.76638",
+	"Longitude": "-73.979",
+	"Address": "180         WEST   59 STREET",
+	"Community Board": "105"
  },
  {
 	"Borough Name": "Manhattan",
@@ -33769,6 +33741,20 @@
  },
  {
 	"Borough Name": "Manhattan",
+	"Complaint Number": "1723114",
+	"BIN": "1087074",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.77872",
+	"Longitude": "-73.96208",
+	"Address": "1009           5 AVENUE",
+	"Community Board": "108"
+ },
+ {
+	"Borough Name": "Manhattan",
 	"Complaint Number": "1723123",
 	"BIN": "1083078",
 	"Disposition Code": "L2",
@@ -33864,6 +33850,20 @@
 	"Longitude": "-73.94753",
 	"Address": "18          WEST  116 STREET",
 	"Community Board": "110"
+ },
+ {
+	"Borough Name": "Manhattan",
+	"Complaint Number": "1723365",
+	"BIN": "1062427",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.8286",
+	"Longitude": "-73.95023",
+	"Address": "706         RIVERSIDE DRIVE",
+	"Community Board": "109"
  },
  {
 	"Borough Name": "Manhattan",
@@ -34060,6 +34060,20 @@
 	"Longitude": "-73.95855",
 	"Address": "961         PARK AVENUE",
 	"Community Board": "108"
+ },
+ {
+	"Borough Name": "Manhattan",
+	"Complaint Number": "1724545",
+	"BIN": "1075879",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.72383",
+	"Longitude": "-73.98478",
+	"Address": "48          AVENUE A",
+	"Community Board": "103"
  },
  {
 	"Borough Name": "Manhattan",
@@ -35096,20 +35110,6 @@
 	"Longitude": "-73.89903",
 	"Address": "315         WEST  262 STREET",
 	"Community Board": "208"
- },
- {
-	"Borough Name": "Bronx",
-	"Complaint Number": "2260690",
-	"BIN": "2017158",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.86896",
-	"Longitude": "-73.89121",
-	"Address": "220         EAST 197 STREET",
-	"Community Board": "207"
  },
  {
 	"Borough Name": "Bronx",
@@ -36177,20 +36177,6 @@
  },
  {
 	"Borough Name": "Bronx",
-	"Complaint Number": "2354267",
-	"BIN": "2069118",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.89541",
-	"Longitude": "-73.84393",
-	"Address": "2010        BUSSING AVENUE",
-	"Community Board": "212"
- },
- {
-	"Borough Name": "Bronx",
 	"Complaint Number": "2357022",
 	"BIN": "2062074",
 	"Disposition Code": "L2",
@@ -36496,20 +36482,6 @@
 	"Longitude": "-73.87018",
 	"Address": "2400        BRONX PARK EAST",
 	"Community Board": "211"
- },
- {
-	"Borough Name": "Bronx",
-	"Complaint Number": "2370118",
-	"BIN": "2129404",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.84244",
-	"Longitude": "-73.88894",
-	"Address": "788         FAIRMOUNT PLACE",
-	"Community Board": "206"
  },
  {
 	"Borough Name": "Bronx",
@@ -37605,20 +37577,6 @@
  },
  {
 	"Borough Name": "Bronx",
-	"Complaint Number": "2387972",
-	"BIN": "2084730",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.90348",
-	"Longitude": "-73.89893",
-	"Address": "252         WEST 256 STREET",
-	"Community Board": "208"
- },
- {
-	"Borough Name": "Bronx",
 	"Complaint Number": "2388635",
 	"BIN": "2053834",
 	"Disposition Code": "L2",
@@ -37924,20 +37882,6 @@
 	"Longitude": "-73.88705",
 	"Address": "1001        WHITLOCK AVENUE",
 	"Community Board": "202"
- },
- {
-	"Borough Name": "Bronx",
-	"Complaint Number": "2391473",
-	"BIN": "2057543",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.88507",
-	"Longitude": "-73.86565",
-	"Address": "3815        CARPENTER AVENUE",
-	"Community Board": "212"
  },
  {
 	"Borough Name": "Bronx",
@@ -38274,20 +38218,6 @@
 	"Longitude": "-73.90128",
 	"Address": "2073        RYER AVENUE",
 	"Community Board": "205"
- },
- {
-	"Borough Name": "Bronx",
-	"Complaint Number": "2391888",
-	"BIN": "2014922",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.86062",
-	"Longitude": "-73.90843",
-	"Address": "2267        ANDREWS AVENUE",
-	"Community Board": "207"
  },
  {
 	"Borough Name": "Bronx",
@@ -53173,6 +53103,20 @@
  },
  {
 	"Borough Name": "Bronx",
+	"Complaint Number": "2430991",
+	"BIN": "2049742",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.85961",
+	"Longitude": "-73.87038",
+	"Address": "2282        BRONX PARK EAST",
+	"Community Board": "211"
+ },
+ {
+	"Borough Name": "Bronx",
 	"Complaint Number": "2430994",
 	"BIN": "2043357",
 	"Disposition Code": "L2",
@@ -55035,6 +54979,20 @@
  },
  {
 	"Borough Name": "Bronx",
+	"Complaint Number": "2436075",
+	"BIN": "2129177",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.82831",
+	"Longitude": "-73.86768",
+	"Address": "1123        COMMONWEALTH AVENUE",
+	"Community Board": "209"
+ },
+ {
+	"Borough Name": "Bronx",
 	"Complaint Number": "2436081",
 	"BIN": "2007403",
 	"Disposition Code": "L2",
@@ -55120,20 +55078,6 @@
  {
 	"Borough Name": "Bronx",
 	"Complaint Number": "2436300",
-	"BIN": "2000534",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/14/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.81523",
-	"Longitude": "-73.91648",
-	"Address": "428         EAST 149 STREET",
-	"Community Board": "201"
- },
- {
-	"Borough Name": "Bronx",
-	"Complaint Number": "2436302",
 	"BIN": "2000534",
 	"Disposition Code": "L2",
 	"Disposition Code Description": "Rescinded",
@@ -56280,6 +56224,20 @@
 	"Community Board": "205"
  },
  {
+	"Borough Name": "Bronx",
+	"Complaint Number": "2440268",
+	"BIN": "2012424",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.85217",
+	"Longitude": "-73.88808",
+	"Address": "2260        HUGHES AVENUE",
+	"Community Board": "206"
+ },
+ {
 	"Borough Name": "Brooklyn",
 	"Complaint Number": "3001618",
 	"BIN": "3211012",
@@ -56642,20 +56600,6 @@
 	"Longitude": "-73.98787",
 	"Address": "140         PLYMOUTH STREET",
 	"Community Board": "302"
- },
- {
-	"Borough Name": "Brooklyn",
-	"Complaint Number": "3141008",
-	"BIN": "3429813",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.68109",
-	"Longitude": "-73.96577",
-	"Address": "870         ATLANTIC AVENUE",
-	"Community Board": "308"
  },
  {
 	"Borough Name": "Brooklyn",
@@ -63855,20 +63799,6 @@
  },
  {
 	"Borough Name": "Brooklyn",
-	"Complaint Number": "3808080",
-	"BIN": "3052988",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.68081",
-	"Longitude": "-73.95296",
-	"Address": "1211        FULTON STREET",
-	"Community Board": "303"
- },
- {
-	"Borough Name": "Brooklyn",
 	"Complaint Number": "3808540",
 	"BIN": "3023210",
 	"Disposition Code": "L2",
@@ -67579,20 +67509,6 @@
  },
  {
 	"Borough Name": "Brooklyn",
-	"Complaint Number": "3909455",
-	"BIN": "3121408",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.63392",
-	"Longitude": "-73.95718",
-	"Address": "804         EAST   21 STREET",
-	"Community Board": "314"
- },
- {
-	"Borough Name": "Brooklyn",
 	"Complaint Number": "3909523",
 	"BIN": "3205008",
 	"Disposition Code": "L2",
@@ -68601,20 +68517,6 @@
  },
  {
 	"Borough Name": "Brooklyn",
-	"Complaint Number": "3927940",
-	"BIN": "3203499",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.59327",
-	"Longitude": "-73.94316",
-	"Address": "2702        AVENUE X",
-	"Community Board": "315"
- },
- {
-	"Borough Name": "Brooklyn",
 	"Complaint Number": "3927975",
 	"BIN": "3345609",
 	"Disposition Code": "L2",
@@ -68639,20 +68541,6 @@
 	"Latitude": "40.69393",
 	"Longitude": "-73.94418",
 	"Address": "181         HART STREET",
-	"Community Board": "303"
- },
- {
-	"Borough Name": "Brooklyn",
-	"Complaint Number": "3928198",
-	"BIN": "3047958",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.67947",
-	"Longitude": "-73.93742",
-	"Address": "1584        FULTON STREET",
 	"Community Board": "303"
  },
  {
@@ -68755,20 +68643,6 @@
  },
  {
 	"Borough Name": "Brooklyn",
-	"Complaint Number": "3929451",
-	"BIN": "3036579",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.67166",
-	"Longitude": "-73.92944",
-	"Address": "1479        STERLING PLACE",
-	"Community Board": "308"
- },
- {
-	"Borough Name": "Brooklyn",
 	"Complaint Number": "3929465",
 	"BIN": "3242962",
 	"Disposition Code": "L2",
@@ -68793,20 +68667,6 @@
 	"Latitude": "40.67031",
 	"Longitude": "-73.95099",
 	"Address": "525         EASTERN PARKWAY",
-	"Community Board": "308"
- },
- {
-	"Borough Name": "Brooklyn",
-	"Complaint Number": "3929529",
-	"BIN": "3036579",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.67166",
-	"Longitude": "-73.92944",
-	"Address": "1479        STERLING PLACE",
 	"Community Board": "308"
  },
  {
@@ -69693,20 +69553,6 @@
  },
  {
 	"Borough Name": "Brooklyn",
-	"Complaint Number": "3941290",
-	"BIN": "3009184",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.66275",
-	"Longitude": "-73.99319",
-	"Address": "214         19 STREET",
-	"Community Board": "307"
- },
- {
-	"Borough Name": "Brooklyn",
 	"Complaint Number": "3941346",
 	"BIN": "3129896",
 	"Disposition Code": "L2",
@@ -70533,20 +70379,6 @@
  },
  {
 	"Borough Name": "Brooklyn",
-	"Complaint Number": "3947714",
-	"BIN": "3004969",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.68087",
-	"Longitude": "-73.99688",
-	"Address": "394         COURT STREET",
-	"Community Board": "306"
- },
- {
-	"Borough Name": "Brooklyn",
 	"Complaint Number": "3947722",
 	"BIN": "3430300",
 	"Disposition Code": "L2",
@@ -70869,20 +70701,6 @@
  },
  {
 	"Borough Name": "Brooklyn",
-	"Complaint Number": "3949472",
-	"BIN": "3071239",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.70733",
-	"Longitude": "-73.9407",
-	"Address": "212         MONTROSE AVENUE",
-	"Community Board": "301"
- },
- {
-	"Borough Name": "Brooklyn",
 	"Complaint Number": "3949475",
 	"BIN": "3049268",
 	"Disposition Code": "L2",
@@ -71090,20 +70908,6 @@
 	"Longitude": "-73.97767",
 	"Address": "1775        WEST    5 STREET",
 	"Community Board": "311"
- },
- {
-	"Borough Name": "Brooklyn",
-	"Complaint Number": "3951619",
-	"BIN": "3244841",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.57752",
-	"Longitude": "-73.96326",
-	"Address": "3069        BRIGHTON 4 STREET",
-	"Community Board": "313"
  },
  {
 	"Borough Name": "Brooklyn",
@@ -71625,20 +71429,6 @@
  },
  {
 	"Borough Name": "Brooklyn",
-	"Complaint Number": "3954312",
-	"BIN": "3419810",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.71725",
-	"Longitude": "-73.95118",
-	"Address": "24          FROST STREET",
-	"Community Board": "301"
- },
- {
-	"Borough Name": "Brooklyn",
 	"Complaint Number": "3954453",
 	"BIN": "3131589",
 	"Disposition Code": "L2",
@@ -72157,20 +71947,6 @@
  },
  {
 	"Borough Name": "Brooklyn",
-	"Complaint Number": "3956007",
-	"BIN": "3173506",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.61394",
-	"Longitude": "-73.97365",
-	"Address": "1597        MCDONALD AVENUE",
-	"Community Board": "312"
- },
- {
-	"Borough Name": "Brooklyn",
 	"Complaint Number": "3956073",
 	"BIN": "3144724",
 	"Disposition Code": "L2",
@@ -72395,20 +72171,6 @@
  },
  {
 	"Borough Name": "Brooklyn",
-	"Complaint Number": "3956638",
-	"BIN": "3023696",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.66576",
-	"Longitude": "-73.9885",
-	"Address": "270           14 STREET",
-	"Community Board": "306"
- },
- {
-	"Borough Name": "Brooklyn",
 	"Complaint Number": "3956722",
 	"BIN": "3060470",
 	"Disposition Code": "L2",
@@ -72616,20 +72378,6 @@
 	"Longitude": "-74.03284",
 	"Address": "344           96 STREET",
 	"Community Board": "310"
- },
- {
-	"Borough Name": "Brooklyn",
-	"Complaint Number": "3957674",
-	"BIN": "3016233",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.63735",
-	"Longitude": "-74.01061",
-	"Address": "711         59 STREET",
-	"Community Board": "307"
  },
  {
 	"Borough Name": "Brooklyn",
@@ -72969,20 +72717,6 @@
  },
  {
 	"Borough Name": "Brooklyn",
-	"Complaint Number": "3958812",
-	"BIN": "3428889",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.57888",
-	"Longitude": "-73.94824",
-	"Address": "149         EXETER STREET",
-	"Community Board": "315"
- },
- {
-	"Borough Name": "Brooklyn",
 	"Complaint Number": "3958860",
 	"BIN": "3114949",
 	"Disposition Code": "L2",
@@ -73246,20 +72980,6 @@
 	"Longitude": "-74.00726",
 	"Address": "1128        OVINGTON AVENUE",
 	"Community Board": "310"
- },
- {
-	"Borough Name": "Brooklyn",
-	"Complaint Number": "3959703",
-	"BIN": "3429160",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.69125",
-	"Longitude": "-73.95038",
-	"Address": "652         DE KALB AVENUE",
-	"Community Board": "303"
  },
  {
 	"Borough Name": "Brooklyn",
@@ -111693,6 +111413,20 @@
  },
  {
 	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A36217",
+	"BIN": "3246720",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.58001",
+	"Longitude": "-73.93978",
+	"Address": "131         MACKENZIE STREET",
+	"Community Board": "315"
+ },
+ {
+	"Borough Name": "Brooklyn",
 	"Complaint Number": "3A36231",
 	"BIN": "3120272",
 	"Disposition Code": "L2",
@@ -113272,6 +113006,20 @@
 	"Longitude": "-73.9939",
 	"Address": "1160          47 STREET",
 	"Community Board": "312"
+ },
+ {
+	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A38964",
+	"BIN": "3032615",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.67064",
+	"Longitude": "-73.9521",
+	"Address": "736         LINCOLN PLACE",
+	"Community Board": "308"
  },
  {
 	"Borough Name": "Brooklyn",
@@ -117083,6 +116831,20 @@
  },
  {
 	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A44729",
+	"BIN": "3211034",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.61519",
+	"Longitude": "-73.94731",
+	"Address": "1467        EAST 27 STREET",
+	"Community Board": "314"
+ },
+ {
+	"Borough Name": "Brooklyn",
 	"Complaint Number": "3A44733",
 	"BIN": "3244538",
 	"Disposition Code": "L2",
@@ -118399,6 +118161,20 @@
  },
  {
 	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A47405",
+	"BIN": "3031447",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.6734",
+	"Longitude": "-73.95622",
+	"Address": "677         STERLING PLACE",
+	"Community Board": "308"
+ },
+ {
+	"Borough Name": "Brooklyn",
 	"Complaint Number": "3A47413",
 	"BIN": "3429432",
 	"Disposition Code": "L2",
@@ -118410,6 +118186,20 @@
 	"Longitude": "-73.93813",
 	"Address": "753         GREENE AVENUE",
 	"Community Board": "303"
+ },
+ {
+	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A47419",
+	"BIN": "3031447",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.6734",
+	"Longitude": "-73.95622",
+	"Address": "677         STERLING PLACE",
+	"Community Board": "308"
  },
  {
 	"Borough Name": "Brooklyn",
@@ -119740,6 +119530,20 @@
 	"Longitude": "-73.9957",
 	"Address": "1683          70 STREET",
 	"Community Board": "311"
+ },
+ {
+	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A51185",
+	"BIN": "3144085",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.63784",
+	"Longitude": "-74.01827",
+	"Address": "6302        5 AVENUE",
+	"Community Board": "307"
  },
  {
 	"Borough Name": "Brooklyn",
@@ -121605,6 +121409,20 @@
  },
  {
 	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A58417",
+	"BIN": "3057474",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.68521",
+	"Longitude": "-73.97482",
+	"Address": "62          HANSON PLACE",
+	"Community Board": "302"
+ },
+ {
+	"Borough Name": "Brooklyn",
 	"Complaint Number": "3A58424",
 	"BIN": "3429223",
 	"Disposition Code": "L2",
@@ -121728,6 +121546,20 @@
 	"Longitude": "-73.96847",
 	"Address": "428         VANDERBILT AVENUE",
 	"Community Board": "302"
+ },
+ {
+	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A58603",
+	"BIN": "3125397",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.64196",
+	"Longitude": "-73.97684",
+	"Address": "411         EAST    3 STREET",
+	"Community Board": "312"
  },
  {
 	"Borough Name": "Brooklyn",
@@ -122137,6 +121969,20 @@
  },
  {
 	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A61459",
+	"BIN": "3031447",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.6734",
+	"Longitude": "-73.95622",
+	"Address": "677         STERLING PLACE",
+	"Community Board": "308"
+ },
+ {
+	"Borough Name": "Brooklyn",
 	"Complaint Number": "3A61526",
 	"BIN": "3002261",
 	"Disposition Code": "L2",
@@ -122148,6 +121994,34 @@
 	"Longitude": "-73.99841",
 	"Address": "38          STATE STREET",
 	"Community Board": "302"
+ },
+ {
+	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A61559",
+	"BIN": "3115549",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.65791",
+	"Longitude": "-73.95618",
+	"Address": "1935        BEDFORD AVENUE",
+	"Community Board": "309"
+ },
+ {
+	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A61663",
+	"BIN": "3017377",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.66154",
+	"Longitude": "-73.99262",
+	"Address": "248         20 STREET",
+	"Community Board": "307"
  },
  {
 	"Borough Name": "Queens",
@@ -125399,6 +125273,20 @@
  },
  {
 	"Borough Name": "Queens",
+	"Complaint Number": "4745704",
+	"BIN": "4431565",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.7576",
+	"Longitude": "-73.85624",
+	"Address": "112-24      NORTHERN BOULEVARD",
+	"Community Board": "403"
+ },
+ {
+	"Borough Name": "Queens",
 	"Complaint Number": "4745707",
 	"BIN": "4436416",
 	"Disposition Code": "L2",
@@ -127485,20 +127373,6 @@
  },
  {
 	"Borough Name": "Queens",
-	"Complaint Number": "4906439",
-	"BIN": "4196379",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.70206",
-	"Longitude": "-73.81931",
-	"Address": "133-02      JAMAICA AVENUE",
-	"Community Board": "409"
- },
- {
-	"Borough Name": "Queens",
 	"Complaint Number": "4906781",
 	"BIN": "4507785",
 	"Disposition Code": "L2",
@@ -128252,6 +128126,20 @@
 	"Longitude": "-73.87259",
 	"Address": "94-11         37 AVENUE",
 	"Community Board": "403"
+ },
+ {
+	"Borough Name": "Queens",
+	"Complaint Number": "4928782",
+	"BIN": "4116928",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.7574",
+	"Longitude": "-73.82526",
+	"Address": "140-46      SANFORD AVENUE",
+	"Community Board": "407"
  },
  {
 	"Borough Name": "Queens",
@@ -130173,20 +130061,6 @@
  },
  {
 	"Borough Name": "Queens",
-	"Complaint Number": "4952264",
-	"BIN": "4201678",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.68412",
-	"Longitude": "-73.83436",
-	"Address": "103-37       107 STREET",
-	"Community Board": "410"
- },
- {
-	"Borough Name": "Queens",
 	"Complaint Number": "4952319",
 	"BIN": "4281449",
 	"Disposition Code": "L2",
@@ -130422,20 +130296,6 @@
 	"Longitude": "-73.83001",
 	"Address": "1-05          81 AVENUE",
 	"Community Board": "409"
- },
- {
-	"Borough Name": "Queens",
-	"Complaint Number": "4953966",
-	"BIN": "4114288",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.75888",
-	"Longitude": "-73.82616",
-	"Address": "138-65      BARCLAY AVENUE",
-	"Community Board": "407"
  },
  {
 	"Borough Name": "Queens",
@@ -131136,20 +130996,6 @@
 	"Longitude": "-73.81828",
 	"Address": "143-07        45 AVENUE",
 	"Community Board": "407"
- },
- {
-	"Borough Name": "Queens",
-	"Complaint Number": "4956822",
-	"BIN": "4006047",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.77041",
-	"Longitude": "-73.9278",
-	"Address": "29-10         21 STREET",
-	"Community Board": "401"
  },
  {
 	"Borough Name": "Queens",
@@ -146329,6 +146175,20 @@
  },
  {
 	"Borough Name": "Queens",
+	"Complaint Number": "4992011",
+	"BIN": "4116928",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.7574",
+	"Longitude": "-73.82526",
+	"Address": "140-46      SANFORD AVENUE",
+	"Community Board": "407"
+ },
+ {
+	"Borough Name": "Queens",
 	"Complaint Number": "4992094",
 	"BIN": "4207172",
 	"Disposition Code": "L2",
@@ -151142,20 +151002,6 @@
 	"Longitude": "-73.87694",
 	"Address": "85-14         57 AVENUE",
 	"Community Board": "404"
- },
- {
-	"Borough Name": "Queens",
-	"Complaint Number": "4A02201",
-	"BIN": "4121326",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "04/29/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.75975",
-	"Longitude": "-73.81623",
-	"Address": "147-26      SANFORD AVENUE",
-	"Community Board": "407"
  },
  {
 	"Borough Name": "Queens",
@@ -157809,6 +157655,20 @@
  },
  {
 	"Borough Name": "Queens",
+	"Complaint Number": "4A17376",
+	"BIN": "4085721",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.69621",
+	"Longitude": "-73.90249",
+	"Address": "16-41       NORMAN STREET",
+	"Community Board": "405"
+ },
+ {
+	"Borough Name": "Queens",
 	"Complaint Number": "4A17388",
 	"BIN": "4006295",
 	"Disposition Code": "L2",
@@ -159083,6 +158943,20 @@
  },
  {
 	"Borough Name": "Queens",
+	"Complaint Number": "4A21383",
+	"BIN": "4103583",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.79406",
+	"Longitude": "-73.80328",
+	"Address": "157-22      POWELLS COVE BOULEVARD",
+	"Community Board": "407"
+ },
+ {
+	"Borough Name": "Queens",
 	"Complaint Number": "4A21419",
 	"BIN": "4619732",
 	"Disposition Code": "L2",
@@ -159429,6 +159303,20 @@
 	"Latitude": "40.7555",
 	"Longitude": "-73.83694",
 	"Address": "131-02        40 ROAD",
+	"Community Board": "407"
+ },
+ {
+	"Borough Name": "Queens",
+	"Complaint Number": "4A22861",
+	"BIN": "4116928",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.7574",
+	"Longitude": "-73.82526",
+	"Address": "140-46      SANFORD AVENUE",
 	"Community Board": "407"
  },
  {
@@ -159863,6 +159751,20 @@
 	"Latitude": "40.75626",
 	"Longitude": "-73.83519",
 	"Address": "131-28      40 ROAD",
+	"Community Board": "407"
+ },
+ {
+	"Borough Name": "Queens",
+	"Complaint Number": "4A23993",
+	"BIN": "4116928",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.7574",
+	"Longitude": "-73.82526",
+	"Address": "140-46      SANFORD AVENUE",
 	"Community Board": "407"
  },
  {
@@ -160623,6 +160525,48 @@
  },
  {
 	"Borough Name": "Queens",
+	"Complaint Number": "4A25466",
+	"BIN": "4232018",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.71263",
+	"Longitude": "-73.75309",
+	"Address": "99-11       FRANCIS LEWIS BOULEVARD",
+	"Community Board": "413"
+ },
+ {
+	"Borough Name": "Queens",
+	"Complaint Number": "4A25552",
+	"BIN": "4232018",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.71263",
+	"Longitude": "-73.75309",
+	"Address": "99-11       FRANCIS LEWIS BOULEVARD",
+	"Community Board": "413"
+ },
+ {
+	"Borough Name": "Queens",
+	"Complaint Number": "4A25554",
+	"BIN": "4232018",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.71263",
+	"Longitude": "-73.75309",
+	"Address": "99-11       FRANCIS LEWIS BOULEVARD",
+	"Community Board": "413"
+ },
+ {
+	"Borough Name": "Queens",
 	"Complaint Number": "4A25578",
 	"BIN": "4035935",
 	"Disposition Code": "L2",
@@ -160819,6 +160763,20 @@
  },
  {
 	"Borough Name": "Queens",
+	"Complaint Number": "4A26143",
+	"BIN": "4116928",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.7574",
+	"Longitude": "-73.82526",
+	"Address": "140-46      SANFORD AVENUE",
+	"Community Board": "407"
+ },
+ {
+	"Borough Name": "Queens",
 	"Complaint Number": "4A26211",
 	"BIN": "4155000",
 	"Disposition Code": "L2",
@@ -160956,6 +160914,20 @@
 	"Longitude": "-73.76918",
 	"Address": "45-30       BELL BOULEVARD",
 	"Community Board": "411"
+ },
+ {
+	"Borough Name": "Queens",
+	"Complaint Number": "4A26860",
+	"BIN": "4124212",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.74908",
+	"Longitude": "-73.80972",
+	"Address": "157-05      ROSE AVENUE",
+	"Community Board": "407"
  },
  {
 	"Borough Name": "Queens",
@@ -161449,20 +161421,6 @@
  },
  {
 	"Borough Name": "Queens",
-	"Complaint Number": "4A28380",
-	"BIN": "4455689",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "03/30/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.76653",
-	"Longitude": "-73.72478",
-	"Address": "54-47       LITTLE NECK PARKWAY",
-	"Community Board": "411"
- },
- {
-	"Borough Name": "Queens",
 	"Complaint Number": "4A28540",
 	"BIN": "4063880",
 	"Disposition Code": "L2",
@@ -161855,6 +161813,20 @@
  },
  {
 	"Borough Name": "Queens",
+	"Complaint Number": "4A31481",
+	"BIN": "4047329",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.73764",
+	"Longitude": "-73.86005",
+	"Address": "57-02         99 STREET",
+	"Community Board": "404"
+ },
+ {
+	"Borough Name": "Queens",
 	"Complaint Number": "4A31495",
 	"BIN": "4618773",
 	"Disposition Code": "L2",
@@ -162177,6 +162149,34 @@
  },
  {
 	"Borough Name": "Queens",
+	"Complaint Number": "4A34147",
+	"BIN": "4031397",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.74223",
+	"Longitude": "-73.90698",
+	"Address": "58-01       QUEENS BOULEVARD",
+	"Community Board": "402"
+ },
+ {
+	"Borough Name": "Queens",
+	"Complaint Number": "4A34163",
+	"BIN": "4031397",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.74223",
+	"Longitude": "-73.90698",
+	"Address": "58-01       QUEENS BOULEVARD",
+	"Community Board": "402"
+ },
+ {
+	"Borough Name": "Queens",
 	"Complaint Number": "4A34287",
 	"BIN": "4146196",
 	"Disposition Code": "L2",
@@ -162187,6 +162187,20 @@
 	"Latitude": "40.74063",
 	"Longitude": "-73.8147",
 	"Address": "59-01       KISSENA BOULEVARD",
+	"Community Board": "407"
+ },
+ {
+	"Borough Name": "Queens",
+	"Complaint Number": "4A34671",
+	"BIN": "4438110",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.76178",
+	"Longitude": "-73.82756",
+	"Address": "37-16       UNION STREET",
 	"Community Board": "407"
  },
  {
@@ -162216,6 +162230,20 @@
 	"Longitude": "-74.12441",
 	"Address": "28          DISOWAY PLACE",
 	"Community Board": "501"
+ },
+ {
+	"Borough Name": "Staten Island",
+	"Complaint Number": "5047293",
+	"BIN": "5087645",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.51184",
+	"Longitude": "-74.23936",
+	"Address": "7254        AMBOY ROAD",
+	"Community Board": "503"
  },
  {
 	"Borough Name": "Staten Island",
@@ -167973,20 +168001,6 @@
  },
  {
 	"Borough Name": "Manhattan",
-	"Complaint Number": "1641780",
-	"BIN": "1090860",
-	"Disposition Code": "L3",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "04/02/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.71373",
-	"Longitude": "-74.0098",
-	"Address": "43          PARK PLACE",
-	"Community Board": "101"
- },
- {
-	"Borough Name": "Manhattan",
 	"Complaint Number": "1651031",
 	"BIN": "1009271",
 	"Disposition Code": "L1",
@@ -168054,20 +168068,6 @@
 	"Longitude": "-73.95058",
 	"Address": "144         WEST 118 STREET",
 	"Community Board": "110"
- },
- {
-	"Borough Name": "Manhattan",
-	"Complaint Number": "1667988",
-	"BIN": "1045175",
-	"Disposition Code": "L1",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.77091",
-	"Longitude": "-73.95409",
-	"Address": "1471        1 AVENUE",
-	"Community Board": "108"
  },
  {
 	"Borough Name": "Manhattan",
@@ -173769,20 +173769,6 @@
  },
  {
 	"Borough Name": "Manhattan",
-	"Complaint Number": "1715564",
-	"BIN": "1083638",
-	"Disposition Code": "L1",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "02/02/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.74973",
-	"Longitude": "-73.9865",
-	"Address": "31          WEST   34 STREET",
-	"Community Board": "105"
- },
- {
-	"Borough Name": "Manhattan",
 	"Complaint Number": "1715711",
 	"BIN": "1013566",
 	"Disposition Code": "L1",
@@ -173849,20 +173835,6 @@
 	"Latitude": "40.74431",
 	"Longitude": "-73.99689",
 	"Address": "216         WEST 23 STREET",
-	"Community Board": "104"
- },
- {
-	"Borough Name": "Manhattan",
-	"Complaint Number": "1716098",
-	"BIN": "1025399",
-	"Disposition Code": "L1",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "02/05/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.76459",
-	"Longitude": "-73.98541",
-	"Address": "313         WEST 53 STREET",
 	"Community Board": "104"
  },
  {
@@ -174679,20 +174651,6 @@
  },
  {
 	"Borough Name": "Manhattan",
-	"Complaint Number": "1720993",
-	"BIN": "1023750",
-	"Disposition Code": "L1",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "03/31/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.76638",
-	"Longitude": "-73.979",
-	"Address": "180         WEST   59 STREET",
-	"Community Board": "105"
- },
- {
-	"Borough Name": "Manhattan",
 	"Complaint Number": "1721055",
 	"BIN": "1015289",
 	"Disposition Code": "L1",
@@ -175085,17 +175043,17 @@
  },
  {
 	"Borough Name": "Manhattan",
-	"Complaint Number": "1723365",
-	"BIN": "1062427",
-	"Disposition Code": "L1",
+	"Complaint Number": "1723116",
+	"BIN": "1046771",
+	"Disposition Code": "L3",
 	"Disposition Code Description": "Active Partial SWO",
 	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "04/29/2026",
+	"Last Disposition Date": "05/15/2026",
 	"Last Disposition Year": "2026",
-	"Latitude": "40.8286",
-	"Longitude": "-73.95023",
-	"Address": "706         RIVERSIDE DRIVE",
-	"Community Board": "109"
+	"Latitude": "40.77911",
+	"Longitude": "-73.96162",
+	"Address": "1014        5 AVENUE",
+	"Community Board": "108"
  },
  {
 	"Borough Name": "Manhattan",
@@ -175407,20 +175365,6 @@
  },
  {
 	"Borough Name": "Manhattan",
-	"Complaint Number": "1724545",
-	"BIN": "1075879",
-	"Disposition Code": "L1",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "05/07/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.72383",
-	"Longitude": "-73.98478",
-	"Address": "48          AVENUE A",
-	"Community Board": "103"
- },
- {
-	"Borough Name": "Manhattan",
 	"Complaint Number": "1724551",
 	"BIN": "1091816",
 	"Disposition Code": "L1",
@@ -175589,6 +175533,34 @@
  },
  {
 	"Borough Name": "Manhattan",
+	"Complaint Number": "1725183",
+	"BIN": "1057182",
+	"Disposition Code": "L1",
+	"Disposition Code Description": "Active Partial SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.79967",
+	"Longitude": "-73.97047",
+	"Address": "871         WEST END AVENUE",
+	"Community Board": "107"
+ },
+ {
+	"Borough Name": "Manhattan",
+	"Complaint Number": "1725184",
+	"BIN": "1057182",
+	"Disposition Code": "L1",
+	"Disposition Code Description": "Active Partial SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.79967",
+	"Longitude": "-73.97047",
+	"Address": "871         WEST END AVENUE",
+	"Community Board": "107"
+ },
+ {
+	"Borough Name": "Manhattan",
 	"Complaint Number": "1725261",
 	"BIN": "1085949",
 	"Disposition Code": "L1",
@@ -175600,6 +175572,62 @@
 	"Longitude": "-74.00813",
 	"Address": "1           PARK ROW",
 	"Community Board": "101"
+ },
+ {
+	"Borough Name": "Manhattan",
+	"Complaint Number": "1725294",
+	"BIN": "1052774",
+	"Disposition Code": "L1",
+	"Disposition Code Description": "Active Partial SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.79003",
+	"Longitude": "-73.94176",
+	"Address": "312         EAST 106 STREET",
+	"Community Board": "111"
+ },
+ {
+	"Borough Name": "Manhattan",
+	"Complaint Number": "1725428",
+	"BIN": "1081694",
+	"Disposition Code": "L1",
+	"Disposition Code Description": "Active Partial SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.74355",
+	"Longitude": "-73.97342",
+	"Address": "524            1 AVENUE",
+	"Community Board": "106"
+ },
+ {
+	"Borough Name": "Manhattan",
+	"Complaint Number": "1725473",
+	"BIN": "1083692",
+	"Disposition Code": "L1",
+	"Disposition Code Description": "Active Partial SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.73487",
+	"Longitude": "-73.97698",
+	"Address": "510         EAST   23 STREET",
+	"Community Board": "106"
+ },
+ {
+	"Borough Name": "Manhattan",
+	"Complaint Number": "1725511",
+	"BIN": "1052774",
+	"Disposition Code": "L1",
+	"Disposition Code Description": "Active Partial SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.79003",
+	"Longitude": "-73.94176",
+	"Address": "312         EAST 106 STREET",
+	"Community Board": "111"
  },
  {
 	"Borough Name": "Bronx",
@@ -176594,20 +176622,6 @@
 	"Longitude": "-73.88693",
 	"Address": "1050        LOWELL STREET",
 	"Community Board": "202"
- },
- {
-	"Borough Name": "Bronx",
-	"Complaint Number": "2412202",
-	"BIN": "2130516",
-	"Disposition Code": "L3",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "04/28/2025",
-	"Last Disposition Year": "2025",
-	"Latitude": "40.83546",
-	"Longitude": "-73.88275",
-	"Address": "1745        WEST FARMS ROAD",
-	"Community Board": "203"
  },
  {
 	"Borough Name": "Bronx",
@@ -178347,20 +178361,6 @@
  },
  {
 	"Borough Name": "Bronx",
-	"Complaint Number": "2427470",
-	"BIN": "2130516",
-	"Disposition Code": "L1",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "10/30/2025",
-	"Last Disposition Year": "2025",
-	"Latitude": "40.83546",
-	"Longitude": "-73.88275",
-	"Address": "1745        WEST FARMS ROAD",
-	"Community Board": "203"
- },
- {
-	"Borough Name": "Bronx",
 	"Complaint Number": "2428015",
 	"BIN": "2128972",
 	"Disposition Code": "L1",
@@ -179173,20 +179173,6 @@
  },
  {
 	"Borough Name": "Bronx",
-	"Complaint Number": "2430991",
-	"BIN": "2049742",
-	"Disposition Code": "L3",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "05/13/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.85961",
-	"Longitude": "-73.87038",
-	"Address": "2282        BRONX PARK EAST",
-	"Community Board": "211"
- },
- {
-	"Borough Name": "Bronx",
 	"Complaint Number": "2430992",
 	"BIN": "2048035",
 	"Disposition Code": "L1",
@@ -179702,20 +179688,6 @@
 	"Longitude": "-73.87021",
 	"Address": "219         EAST  238 STREET",
 	"Community Board": "212"
- },
- {
-	"Borough Name": "Bronx",
-	"Complaint Number": "2436324",
-	"BIN": "2010022",
-	"Disposition Code": "L3",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "04/15/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.84253",
-	"Longitude": "-73.88909",
-	"Address": "786         FAIRMOUNT PLACE",
-	"Community Board": "206"
  },
  {
 	"Borough Name": "Bronx",
@@ -180281,10 +180253,10 @@
 	"Borough Name": "Bronx",
 	"Complaint Number": "2440224",
 	"BIN": "2012424",
-	"Disposition Code": "L1",
+	"Disposition Code": "L3",
 	"Disposition Code Description": "Active Partial SWO",
 	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "05/06/2026",
+	"Last Disposition Date": "05/15/2026",
 	"Last Disposition Year": "2026",
 	"Latitude": "40.85217",
 	"Longitude": "-73.88808",
@@ -180351,10 +180323,10 @@
 	"Borough Name": "Bronx",
 	"Complaint Number": "2440433",
 	"BIN": "2117837",
-	"Disposition Code": "L1",
+	"Disposition Code": "L3",
 	"Disposition Code Description": "Active Partial SWO",
 	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "05/12/2026",
+	"Last Disposition Date": "05/15/2026",
 	"Last Disposition Year": "2026",
 	"Latitude": "40.87577",
 	"Longitude": "-73.87685",
@@ -180365,10 +180337,10 @@
 	"Borough Name": "Bronx",
 	"Complaint Number": "2440449",
 	"BIN": "2131137",
-	"Disposition Code": "L1",
+	"Disposition Code": "L3",
 	"Disposition Code Description": "Active Partial SWO",
 	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "05/11/2026",
+	"Last Disposition Date": "05/15/2026",
 	"Last Disposition Year": "2026",
 	"Latitude": "40.83459",
 	"Longitude": "-73.91895",
@@ -180519,10 +180491,10 @@
 	"Borough Name": "Bronx",
 	"Complaint Number": "2440705",
 	"BIN": "2017573",
-	"Disposition Code": "L1",
+	"Disposition Code": "L3",
 	"Disposition Code Description": "Active Partial SWO",
 	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "05/14/2026",
+	"Last Disposition Date": "05/15/2026",
 	"Last Disposition Year": "2026",
 	"Latitude": "40.86951",
 	"Longitude": "-73.89348",
@@ -180640,6 +180612,20 @@
 	"Longitude": "-73.91346",
 	"Address": "529         ST ANNS AVENUE",
 	"Community Board": "201"
+ },
+ {
+	"Borough Name": "Bronx",
+	"Complaint Number": "2440891",
+	"BIN": "2097742",
+	"Disposition Code": "L1",
+	"Disposition Code Description": "Active Partial SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.83088",
+	"Longitude": "-73.82729",
+	"Address": "2877        BARKLEY AVENUE",
+	"Community Board": "210"
  },
  {
 	"Borough Name": "Brooklyn",
@@ -181620,20 +181606,6 @@
 	"Longitude": "-73.92288",
 	"Address": "407         REMSEN AVENUE",
 	"Community Board": "317"
- },
- {
-	"Borough Name": "Brooklyn",
-	"Complaint Number": "3952886",
-	"BIN": "3080466",
-	"Disposition Code": "L1",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.68298",
-	"Longitude": "-73.90422",
-	"Address": "89          DE SALES PLACE",
-	"Community Board": "304"
  },
  {
 	"Borough Name": "Brooklyn",
@@ -184658,6 +184630,20 @@
 	"Longitude": "-73.94467",
 	"Address": "483         MAPLE STREET",
 	"Community Board": "309"
+ },
+ {
+	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A02040",
+	"BIN": "3179816",
+	"Disposition Code": "L1",
+	"Disposition Code Description": "Active Partial SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.62456",
+	"Longitude": "-73.96478",
+	"Address": "1102        AVENUE J",
+	"Community Board": "314"
  },
  {
 	"Borough Name": "Brooklyn",
@@ -190933,20 +190919,6 @@
  },
  {
 	"Borough Name": "Brooklyn",
-	"Complaint Number": "3A38964",
-	"BIN": "3032615",
-	"Disposition Code": "L1",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "03/04/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.67064",
-	"Longitude": "-73.9521",
-	"Address": "736         LINCOLN PLACE",
-	"Community Board": "308"
- },
- {
-	"Borough Name": "Brooklyn",
 	"Complaint Number": "3A38997",
 	"BIN": "3056612",
 	"Disposition Code": "L1",
@@ -193775,20 +193747,6 @@
  },
  {
 	"Borough Name": "Brooklyn",
-	"Complaint Number": "3A44729",
-	"BIN": "3211034",
-	"Disposition Code": "L1",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "05/14/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.61519",
-	"Longitude": "-73.94731",
-	"Address": "1467        EAST 27 STREET",
-	"Community Board": "314"
- },
- {
-	"Borough Name": "Brooklyn",
 	"Complaint Number": "3A44798",
 	"BIN": "3137185",
 	"Disposition Code": "L1",
@@ -194332,34 +194290,6 @@
 	"Longitude": "-73.98454",
 	"Address": "175         KINGS HIGHWAY",
 	"Community Board": "311"
- },
- {
-	"Borough Name": "Brooklyn",
-	"Complaint Number": "3A47405",
-	"BIN": "3031447",
-	"Disposition Code": "L1",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "02/04/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.6734",
-	"Longitude": "-73.95622",
-	"Address": "677         STERLING PLACE",
-	"Community Board": "308"
- },
- {
-	"Borough Name": "Brooklyn",
-	"Complaint Number": "3A47419",
-	"BIN": "3031447",
-	"Disposition Code": "L1",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "02/04/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.6734",
-	"Longitude": "-73.95622",
-	"Address": "677         STERLING PLACE",
-	"Community Board": "308"
  },
  {
 	"Borough Name": "Brooklyn",
@@ -195973,20 +195903,6 @@
  },
  {
 	"Borough Name": "Brooklyn",
-	"Complaint Number": "3A54598",
-	"BIN": "3253166",
-	"Disposition Code": "L3",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "03/31/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.65143",
-	"Longitude": "-73.98039",
-	"Address": "125         MC DONALD AVENUE",
-	"Community Board": "307"
- },
- {
-	"Borough Name": "Brooklyn",
 	"Complaint Number": "3A54618",
 	"BIN": "3019390",
 	"Disposition Code": "L1",
@@ -196706,7 +196622,7 @@
 	"Disposition Code": "L1",
 	"Disposition Code Description": "Active Partial SWO",
 	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "04/06/2026",
+	"Last Disposition Date": "05/15/2026",
 	"Last Disposition Year": "2026",
 	"Latitude": "40.68579",
 	"Longitude": "-73.9846",
@@ -197118,20 +197034,6 @@
 	"Longitude": "-73.94011",
 	"Address": "3715        NOSTRAND AVENUE",
 	"Community Board": "315"
- },
- {
-	"Borough Name": "Brooklyn",
-	"Complaint Number": "3A57589",
-	"BIN": "3253166",
-	"Disposition Code": "L1",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "04/15/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.65143",
-	"Longitude": "-73.98039",
-	"Address": "125         MC DONALD AVENUE",
-	"Community Board": "307"
  },
  {
 	"Borough Name": "Brooklyn",
@@ -197980,7 +197882,7 @@
 	"Disposition Code": "L1",
 	"Disposition Code Description": "Active Partial SWO",
 	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "05/05/2026",
+	"Last Disposition Date": "05/15/2026",
 	"Last Disposition Year": "2026",
 	"Latitude": "40.72283",
 	"Longitude": "-73.94865",
@@ -198255,6 +198157,20 @@
  },
  {
 	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A61493",
+	"BIN": "3027994",
+	"Disposition Code": "L1",
+	"Disposition Code Description": "Active Partial SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.67796",
+	"Longitude": "-73.95927",
+	"Address": "642         CLASSON AVENUE",
+	"Community Board": "308"
+ },
+ {
+	"Borough Name": "Brooklyn",
 	"Complaint Number": "3A61514",
 	"BIN": "3049059",
 	"Disposition Code": "L1",
@@ -198280,20 +198196,6 @@
 	"Longitude": "-73.95418",
 	"Address": "686         EAST   24 STREET",
 	"Community Board": "314"
- },
- {
-	"Borough Name": "Brooklyn",
-	"Complaint Number": "3A61663",
-	"BIN": "3017377",
-	"Disposition Code": "L1",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "05/12/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.66154",
-	"Longitude": "-73.99262",
-	"Address": "248         20 STREET",
-	"Community Board": "307"
  },
  {
 	"Borough Name": "Brooklyn",
@@ -198395,6 +198297,20 @@
  },
  {
 	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A61862",
+	"BIN": "3078184",
+	"Disposition Code": "L1",
+	"Disposition Code Description": "Active Partial SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.68678",
+	"Longitude": "-73.91571",
+	"Address": "23          WEIRFIELD STREET",
+	"Community Board": "304"
+ },
+ {
+	"Borough Name": "Brooklyn",
 	"Complaint Number": "3A61863",
 	"BIN": "3067026",
 	"Disposition Code": "L1",
@@ -198451,6 +198367,48 @@
  },
  {
 	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A61937",
+	"BIN": "3191615",
+	"Disposition Code": "L1",
+	"Disposition Code Description": "Active Partial SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.59822",
+	"Longitude": "-73.97139",
+	"Address": "2049        WEST STREET",
+	"Community Board": "315"
+ },
+ {
+	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A61948",
+	"BIN": "3044882",
+	"Disposition Code": "L1",
+	"Disposition Code Description": "Active Partial SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.6872",
+	"Longitude": "-73.93349",
+	"Address": "596         MONROE STREET",
+	"Community Board": "303"
+ },
+ {
+	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A62060",
+	"BIN": "3020464",
+	"Disposition Code": "L1",
+	"Disposition Code Description": "Active Partial SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.67392",
+	"Longitude": "-73.97942",
+	"Address": "248         6 AVENUE",
+	"Community Board": "306"
+ },
+ {
+	"Borough Name": "Brooklyn",
 	"Complaint Number": "3A62109",
 	"BIN": "3116678",
 	"Disposition Code": "L1",
@@ -198476,6 +198434,76 @@
 	"Longitude": "-73.98922",
 	"Address": "241           13 STREET",
 	"Community Board": "306"
+ },
+ {
+	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A62155",
+	"BIN": "3105187",
+	"Disposition Code": "L1",
+	"Disposition Code Description": "Active Partial SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.65377",
+	"Longitude": "-73.91143",
+	"Address": "639         ROCKAWAY PARKWAY",
+	"Community Board": "317"
+ },
+ {
+	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A62261",
+	"BIN": "3082383",
+	"Disposition Code": "L1",
+	"Disposition Code Description": "Active Partial SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.66036",
+	"Longitude": "-73.90867",
+	"Address": "792         ROCKAWAY AVENUE",
+	"Community Board": "316"
+ },
+ {
+	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A62298",
+	"BIN": "3062995",
+	"Disposition Code": "L1",
+	"Disposition Code Description": "Active Partial SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.7128",
+	"Longitude": "-73.96016",
+	"Address": "183         SOUTH 2 STREET",
+	"Community Board": "301"
+ },
+ {
+	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A62339",
+	"BIN": "3029460",
+	"Disposition Code": "L1",
+	"Disposition Code Description": "Active Partial SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.67373",
+	"Longitude": "-73.96252",
+	"Address": "461         ST JOHNS PLACE",
+	"Community Board": "308"
+ },
+ {
+	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A62349",
+	"BIN": "3430081",
+	"Disposition Code": "L1",
+	"Disposition Code Description": "Active Partial SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.63222",
+	"Longitude": "-73.98392",
+	"Address": "4609          16 AVENUE",
+	"Community Board": "312"
  },
  {
 	"Borough Name": "Queens",
@@ -205087,20 +205115,6 @@
  },
  {
 	"Borough Name": "Queens",
-	"Complaint Number": "4A17376",
-	"BIN": "4085721",
-	"Disposition Code": "L1",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "11/19/2025",
-	"Last Disposition Year": "2025",
-	"Latitude": "40.69621",
-	"Longitude": "-73.90249",
-	"Address": "16-41       NORMAN STREET",
-	"Community Board": "405"
- },
- {
-	"Borough Name": "Queens",
 	"Complaint Number": "4A17383",
 	"BIN": "4537307",
 	"Disposition Code": "L1",
@@ -205112,20 +205126,6 @@
 	"Longitude": "-73.83785",
 	"Address": "95-06        107 STREET",
 	"Community Board": "409"
- },
- {
-	"Borough Name": "Queens",
-	"Complaint Number": "4A17423",
-	"BIN": "4114190",
-	"Disposition Code": "L1",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "01/23/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.75648",
-	"Longitude": "-73.83199",
-	"Address": "132-51      41 ROAD",
-	"Community Board": "407"
  },
  {
 	"Borough Name": "Queens",
@@ -205703,20 +205703,6 @@
  },
  {
 	"Borough Name": "Queens",
-	"Complaint Number": "4A21383",
-	"BIN": "4103583",
-	"Disposition Code": "L1",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "01/05/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.79406",
-	"Longitude": "-73.80328",
-	"Address": "157-22      POWELLS COVE BOULEVARD",
-	"Community Board": "407"
- },
- {
-	"Borough Name": "Queens",
 	"Complaint Number": "4A21416",
 	"BIN": "4113236",
 	"Disposition Code": "L1",
@@ -205882,20 +205868,6 @@
 	"Longitude": "-73.74852",
 	"Address": "69-32       CLOVERDALE BOULEVARD",
 	"Community Board": "411"
- },
- {
-	"Borough Name": "Queens",
-	"Complaint Number": "4A22861",
-	"BIN": "4116928",
-	"Disposition Code": "L3",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "03/05/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.7574",
-	"Longitude": "-73.82526",
-	"Address": "140-46      SANFORD AVENUE",
-	"Community Board": "407"
  },
  {
 	"Borough Name": "Queens",
@@ -206319,20 +206291,6 @@
  },
  {
 	"Borough Name": "Queens",
-	"Complaint Number": "4A25466",
-	"BIN": "4232018",
-	"Disposition Code": "L1",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "02/18/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.71263",
-	"Longitude": "-73.75309",
-	"Address": "99-11       FRANCIS LEWIS BOULEVARD",
-	"Community Board": "413"
- },
- {
-	"Borough Name": "Queens",
 	"Complaint Number": "4A25469",
 	"BIN": "4166894",
 	"Disposition Code": "L1",
@@ -206459,20 +206417,6 @@
  },
  {
 	"Borough Name": "Queens",
-	"Complaint Number": "4A26142",
-	"BIN": "4116928",
-	"Disposition Code": "L3",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "03/05/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.7574",
-	"Longitude": "-73.82526",
-	"Address": "140-46      SANFORD AVENUE",
-	"Community Board": "407"
- },
- {
-	"Borough Name": "Queens",
 	"Complaint Number": "4A26220",
 	"BIN": "4304704",
 	"Disposition Code": "L1",
@@ -206484,6 +206428,20 @@
 	"Longitude": "-73.84604",
 	"Address": "215         BEACH 126 STREET",
 	"Community Board": "414"
+ },
+ {
+	"Borough Name": "Queens",
+	"Complaint Number": "4A26433",
+	"BIN": "4010098",
+	"Disposition Code": "L3",
+	"Disposition Code Description": "Active Partial SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.76881",
+	"Longitude": "-73.91354",
+	"Address": "24-58       37 STREET",
+	"Community Board": "401"
  },
  {
 	"Borough Name": "Queens",
@@ -206526,20 +206484,6 @@
 	"Longitude": "-73.75235",
 	"Address": "135-15 REAR  218 STREET",
 	"Community Board": "413"
- },
- {
-	"Borough Name": "Queens",
-	"Complaint Number": "4A26860",
-	"BIN": "4124212",
-	"Disposition Code": "L1",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "03/06/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.74908",
-	"Longitude": "-73.80972",
-	"Address": "157-05      ROSE AVENUE",
-	"Community Board": "407"
  },
  {
 	"Borough Name": "Queens",
@@ -207369,20 +207313,6 @@
  },
  {
 	"Borough Name": "Queens",
-	"Complaint Number": "4A31481",
-	"BIN": "4047329",
-	"Disposition Code": "L1",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "04/21/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.73764",
-	"Longitude": "-73.86005",
-	"Address": "57-02         99 STREET",
-	"Community Board": "404"
- },
- {
-	"Borough Name": "Queens",
 	"Complaint Number": "4A31657",
 	"BIN": "4019899",
 	"Disposition Code": "L1",
@@ -207901,20 +207831,6 @@
  },
  {
 	"Borough Name": "Queens",
-	"Complaint Number": "4A33934",
-	"BIN": "4625344",
-	"Disposition Code": "L1",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "05/06/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.76366",
-	"Longitude": "-73.86177",
-	"Address": "108-25      DITMARS BOULEVARD",
-	"Community Board": "403"
- },
- {
-	"Borough Name": "Queens",
 	"Complaint Number": "4A34108",
 	"BIN": "4439680",
 	"Disposition Code": "L1",
@@ -207943,40 +207859,12 @@
  },
  {
 	"Borough Name": "Queens",
-	"Complaint Number": "4A34147",
-	"BIN": "4031397",
-	"Disposition Code": "L1",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "05/07/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.74223",
-	"Longitude": "-73.90698",
-	"Address": "58-01       QUEENS BOULEVARD",
-	"Community Board": "402"
- },
- {
-	"Borough Name": "Queens",
-	"Complaint Number": "4A34163",
-	"BIN": "4031397",
-	"Disposition Code": "L1",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "05/07/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.74223",
-	"Longitude": "-73.90698",
-	"Address": "58-01       QUEENS BOULEVARD",
-	"Community Board": "402"
- },
- {
-	"Borough Name": "Queens",
 	"Complaint Number": "4A34192",
 	"BIN": "4006590",
-	"Disposition Code": "L1",
+	"Disposition Code": "L3",
 	"Disposition Code Description": "Active Partial SWO",
 	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "05/08/2026",
+	"Last Disposition Date": "05/15/2026",
 	"Last Disposition Year": "2026",
 	"Latitude": "40.76444",
 	"Longitude": "-73.92861",
@@ -208083,20 +207971,6 @@
  },
  {
 	"Borough Name": "Queens",
-	"Complaint Number": "4A34671",
-	"BIN": "4438110",
-	"Disposition Code": "L1",
-	"Disposition Code Description": "Active Partial SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "05/13/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.76178",
-	"Longitude": "-73.82756",
-	"Address": "37-16       UNION STREET",
-	"Community Board": "407"
- },
- {
-	"Borough Name": "Queens",
 	"Complaint Number": "4A34732",
 	"BIN": "4051684",
 	"Disposition Code": "L1",
@@ -208136,6 +208010,20 @@
 	"Longitude": "-73.90094",
 	"Address": "43-21         64 STREET",
 	"Community Board": "402"
+ },
+ {
+	"Borough Name": "Queens",
+	"Complaint Number": "4A34910",
+	"BIN": "4005624",
+	"Disposition Code": "L1",
+	"Disposition Code Description": "Active Partial SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.77182",
+	"Longitude": "-73.9312",
+	"Address": "11-16       MAIN AVENUE",
+	"Community Board": "401"
  },
  {
 	"Borough Name": "Staten Island",
@@ -209846,6 +209734,20 @@
 	"Community Board": "503"
  },
  {
+	"Borough Name": "Staten Island",
+	"Complaint Number": "5196492",
+	"BIN": "5088116",
+	"Disposition Code": "L1",
+	"Disposition Code Description": "Active Partial SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.50972",
+	"Longitude": "-74.24377",
+	"Address": "7420        AMBOY ROAD",
+	"Community Board": "503"
+ },
+ {
 	"Borough Name": "Manhattan",
 	"Complaint Number": "1490308",
 	"BIN": "1076166",
@@ -210390,20 +210292,6 @@
 	"Longitude": "-73.95308",
 	"Address": "631         WEST 142 STREET",
 	"Community Board": "109"
- },
- {
-	"Borough Name": "Manhattan",
-	"Complaint Number": "1723116",
-	"BIN": "1046771",
-	"Disposition Code": "A3",
-	"Disposition Code Description": "Active Full SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "04/22/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.77911",
-	"Longitude": "-73.96162",
-	"Address": "1014        5 AVENUE",
-	"Community Board": "108"
  },
  {
 	"Borough Name": "Manhattan",
@@ -211555,6 +211443,20 @@
  },
  {
 	"Borough Name": "Bronx",
+	"Complaint Number": "2436302",
+	"BIN": "2000534",
+	"Disposition Code": "A3",
+	"Disposition Code Description": "Active Full SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.81523",
+	"Longitude": "-73.91648",
+	"Address": "428         EAST 149 STREET",
+	"Community Board": "201"
+ },
+ {
+	"Borough Name": "Bronx",
 	"Complaint Number": "2436403",
 	"BIN": "2002847",
 	"Disposition Code": "A3",
@@ -211919,20 +211821,6 @@
  },
  {
 	"Borough Name": "Bronx",
-	"Complaint Number": "2440268",
-	"BIN": "2012424",
-	"Disposition Code": "A3",
-	"Disposition Code Description": "Active Full SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "05/06/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.85217",
-	"Longitude": "-73.88808",
-	"Address": "2260        HUGHES AVENUE",
-	"Community Board": "206"
- },
- {
-	"Borough Name": "Bronx",
 	"Complaint Number": "2440401",
 	"BIN": "2080418",
 	"Disposition Code": "A3",
@@ -212028,6 +211916,20 @@
 	"Longitude": "-73.91658",
 	"Address": "308         EAST 162 STREET",
 	"Community Board": "204"
+ },
+ {
+	"Borough Name": "Bronx",
+	"Complaint Number": "2440894",
+	"BIN": "2027499",
+	"Disposition Code": "A3",
+	"Disposition Code Description": "Active Full SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.83192",
+	"Longitude": "-73.8758",
+	"Address": "1605        EAST 172 STREET",
+	"Community Board": "209"
  },
  {
 	"Borough Name": "Brooklyn",
@@ -212260,7 +212162,7 @@
 	"Disposition Code": "A3",
 	"Disposition Code Description": "Active Full SWO",
 	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "05/05/2026",
+	"Last Disposition Date": "05/15/2026",
 	"Last Disposition Year": "2026",
 	"Latitude": "40.64199",
 	"Longitude": "-73.93534",
@@ -212490,20 +212392,6 @@
 	"Longitude": "-73.94922",
 	"Address": "600         MARCY AVENUE",
 	"Community Board": "303"
- },
- {
-	"Borough Name": "Brooklyn",
-	"Complaint Number": "3960445",
-	"BIN": "3410229",
-	"Disposition Code": "A3",
-	"Disposition Code Description": "Active Full SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.60098",
-	"Longitude": "-73.95",
-	"Address": "2060 GARAGE EAST   22 STREET",
-	"Community Board": "315"
  },
  {
 	"Borough Name": "Brooklyn",
@@ -213806,20 +213694,6 @@
 	"Longitude": "-73.94746",
 	"Address": "258         JEFFERSON AVENUE",
 	"Community Board": "303"
- },
- {
-	"Borough Name": "Brooklyn",
-	"Complaint Number": "3A02040",
-	"BIN": "3179816",
-	"Disposition Code": "A3",
-	"Disposition Code Description": "Active Full SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "02/10/2025",
-	"Last Disposition Year": "2025",
-	"Latitude": "40.62456",
-	"Longitude": "-73.96478",
-	"Address": "1102        AVENUE J",
-	"Community Board": "314"
  },
  {
 	"Borough Name": "Brooklyn",
@@ -218149,20 +218023,6 @@
  },
  {
 	"Borough Name": "Brooklyn",
-	"Complaint Number": "3A36217",
-	"BIN": "3246720",
-	"Disposition Code": "A3",
-	"Disposition Code Description": "Active Full SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "11/20/2025",
-	"Last Disposition Year": "2025",
-	"Latitude": "40.58001",
-	"Longitude": "-73.93978",
-	"Address": "131         MACKENZIE STREET",
-	"Community Board": "315"
- },
- {
-	"Borough Name": "Brooklyn",
 	"Complaint Number": "3A36234",
 	"BIN": "3259363",
 	"Disposition Code": "A3",
@@ -219871,20 +219731,6 @@
  },
  {
 	"Borough Name": "Brooklyn",
-	"Complaint Number": "3A51185",
-	"BIN": "3144085",
-	"Disposition Code": "A3",
-	"Disposition Code Description": "Active Full SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "04/24/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.63784",
-	"Longitude": "-74.01827",
-	"Address": "6302        5 AVENUE",
-	"Community Board": "307"
- },
- {
-	"Borough Name": "Brooklyn",
 	"Complaint Number": "3A51197",
 	"BIN": "3039409",
 	"Disposition Code": "A3",
@@ -220991,20 +220837,6 @@
  },
  {
 	"Borough Name": "Brooklyn",
-	"Complaint Number": "3A58603",
-	"BIN": "3125397",
-	"Disposition Code": "A3",
-	"Disposition Code Description": "Active Full SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "04/22/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.64196",
-	"Longitude": "-73.97684",
-	"Address": "411         EAST    3 STREET",
-	"Community Board": "312"
- },
- {
-	"Borough Name": "Brooklyn",
 	"Complaint Number": "3A58611",
 	"BIN": "3034391",
 	"Disposition Code": "A3",
@@ -221271,6 +221103,20 @@
  },
  {
 	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A60863",
+	"BIN": "3228615",
+	"Disposition Code": "A3",
+	"Disposition Code Description": "Active Full SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.64762",
+	"Longitude": "-73.91003",
+	"Address": "867         EAST 93 STREET",
+	"Community Board": "318"
+ },
+ {
+	"Borough Name": "Brooklyn",
 	"Complaint Number": "3A61014",
 	"BIN": "3093982",
 	"Disposition Code": "A3",
@@ -221296,6 +221142,20 @@
 	"Longitude": "-73.94412",
 	"Address": "975         LINCOLN PLACE",
 	"Community Board": "308"
+ },
+ {
+	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A61068",
+	"BIN": "3320885",
+	"Disposition Code": "A3",
+	"Disposition Code Description": "Active Full SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.63103",
+	"Longitude": "-73.96225",
+	"Address": "33          WELLINGTON COURT",
+	"Community Board": "314"
  },
  {
 	"Borough Name": "Brooklyn",
@@ -221394,20 +221254,6 @@
 	"Longitude": "-73.93639",
 	"Address": "536         MONROE STREET",
 	"Community Board": "303"
- },
- {
-	"Borough Name": "Brooklyn",
-	"Complaint Number": "3A61559",
-	"BIN": "3115549",
-	"Disposition Code": "A3",
-	"Disposition Code Description": "Active Full SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "05/13/2026",
-	"Last Disposition Year": "2026",
-	"Latitude": "40.65791",
-	"Longitude": "-73.95618",
-	"Address": "1935        BEDFORD AVENUE",
-	"Community Board": "309"
  },
  {
 	"Borough Name": "Brooklyn",
@@ -221534,6 +221380,34 @@
 	"Longitude": "-73.89819",
 	"Address": "1743        LINDEN BOULEVARD",
 	"Community Board": "305"
+ },
+ {
+	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A62164",
+	"BIN": "3043670",
+	"Disposition Code": "A3",
+	"Disposition Code Description": "Active Full SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.6919",
+	"Longitude": "-73.92926",
+	"Address": "481         VAN BUREN STREET",
+	"Community Board": "303"
+ },
+ {
+	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A62297",
+	"BIN": "3062995",
+	"Disposition Code": "A3",
+	"Disposition Code Description": "Active Full SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.7128",
+	"Longitude": "-73.96016",
+	"Address": "183         SOUTH 2 STREET",
+	"Community Board": "301"
  },
  {
 	"Borough Name": "Queens",
@@ -221800,20 +221674,6 @@
 	"Longitude": "-73.80943",
 	"Address": "150-01        84 DRIVE",
 	"Community Board": "408"
- },
- {
-	"Borough Name": "Queens",
-	"Complaint Number": "4953781",
-	"BIN": "4240763",
-	"Disposition Code": "A3",
-	"Disposition Code Description": "Active Full SWO",
-	"Disposition Category": "ACTIVE",
-	"Last Disposition Date": "05/15/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.71051",
-	"Longitude": "-73.73492",
-	"Address": "105-09      220 STREET",
-	"Community Board": "413"
  },
  {
 	"Borough Name": "Queens",
@@ -227333,6 +227193,20 @@
  },
  {
 	"Borough Name": "Queens",
+	"Complaint Number": "4A34633",
+	"BIN": "4305930",
+	"Disposition Code": "A3",
+	"Disposition Code Description": "Active Full SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.57504",
+	"Longitude": "-73.85309",
+	"Address": "234         BEACH 135 STREET",
+	"Community Board": "414"
+ },
+ {
+	"Borough Name": "Queens",
 	"Complaint Number": "4A34642",
 	"BIN": "4178441",
 	"Disposition Code": "A3",
@@ -227358,6 +227232,62 @@
 	"Longitude": "-73.72893",
 	"Address": "88-41        238 STREET",
 	"Community Board": "413"
+ },
+ {
+	"Borough Name": "Queens",
+	"Complaint Number": "4A34876",
+	"BIN": "4115126",
+	"Disposition Code": "A3",
+	"Disposition Code Description": "Active Full SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.7532",
+	"Longitude": "-73.83144",
+	"Address": "132-28      POPLE AVENUE",
+	"Community Board": "407"
+ },
+ {
+	"Borough Name": "Queens",
+	"Complaint Number": "4A34878",
+	"BIN": "4115126",
+	"Disposition Code": "A3",
+	"Disposition Code Description": "Active Full SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.7532",
+	"Longitude": "-73.83144",
+	"Address": "132-28      POPLE AVENUE",
+	"Community Board": "407"
+ },
+ {
+	"Borough Name": "Queens",
+	"Complaint Number": "4A34879",
+	"BIN": "4115126",
+	"Disposition Code": "A3",
+	"Disposition Code Description": "Active Full SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.7532",
+	"Longitude": "-73.83144",
+	"Address": "132-28      POPLE AVENUE",
+	"Community Board": "407"
+ },
+ {
+	"Borough Name": "Queens",
+	"Complaint Number": "4A35016",
+	"BIN": "4085209",
+	"Disposition Code": "A3",
+	"Disposition Code Description": "Active Full SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "05/15/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.70328",
+	"Longitude": "-73.89626",
+	"Address": "60-83       69 AVENUE",
+	"Community Board": "405"
  },
  {
 	"Borough Name": "Staten Island",
