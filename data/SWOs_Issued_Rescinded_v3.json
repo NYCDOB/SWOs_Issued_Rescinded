@@ -3907,20 +3907,6 @@
  },
  {
 	"Borough Name": "Manhattan",
-	"Complaint Number": "1610148",
-	"BIN": "1024764",
-	"Disposition Code": "L2",
-	"Disposition Code Description": "Rescinded",
-	"Disposition Category": "RESCINDED",
-	"Last Disposition Date": "09/07/2024",
-	"Last Disposition Year": "2024",
-	"Latitude": "40.76053",
-	"Longitude": "-73.98639",
-	"Address": "234         WEST 48 STREET",
-	"Community Board": "105"
- },
- {
-	"Borough Name": "Manhattan",
 	"Complaint Number": "1611862",
 	"BIN": "1001355",
 	"Disposition Code": "L2",
@@ -120513,6 +120499,20 @@
  },
  {
 	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A66993",
+	"BIN": "3076545",
+	"Disposition Code": "L2",
+	"Disposition Code Description": "Rescinded",
+	"Disposition Category": "RESCINDED",
+	"Last Disposition Date": "09/07/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.68965",
+	"Longitude": "-73.91993",
+	"Address": "31          WOODBINE STREET",
+	"Community Board": "304"
+ },
+ {
+	"Borough Name": "Brooklyn",
 	"Complaint Number": "3A67078",
 	"BIN": "3430294",
 	"Disposition Code": "L2",
@@ -199584,6 +199584,20 @@
 	"Community Board": "307"
  },
  {
+	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A79435",
+	"BIN": "3061180",
+	"Disposition Code": "L1",
+	"Disposition Code Description": "Active Partial SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "09/07/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.70273",
+	"Longitude": "-73.95405",
+	"Address": "168         HEYWARD STREET",
+	"Community Board": "301"
+ },
+ {
 	"Borough Name": "Queens",
 	"Complaint Number": "4257044",
 	"BIN": "4442350",
@@ -222570,6 +222584,20 @@
 	"Longitude": "-73.99964",
 	"Address": "62             4 PLACE",
 	"Community Board": "306"
+ },
+ {
+	"Borough Name": "Brooklyn",
+	"Complaint Number": "3A79193",
+	"BIN": "3061180",
+	"Disposition Code": "A3",
+	"Disposition Code Description": "Active Full SWO",
+	"Disposition Category": "ACTIVE",
+	"Last Disposition Date": "09/07/2026",
+	"Last Disposition Year": "2026",
+	"Latitude": "40.70273",
+	"Longitude": "-73.95405",
+	"Address": "168         HEYWARD STREET",
+	"Community Board": "301"
  },
  {
 	"Borough Name": "Queens",
