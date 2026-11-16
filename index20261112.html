@@ -62,10 +62,8 @@ body {
 }
 
 #riskTable{
-	zzzheight: 100%;
 	font-size: 11px;
 }
-
 td.details-control {
 	background: url('https://datatables.net/examples/resources/details_open.png') no-repeat center center;
 	cursor: pointer;
@@ -74,8 +72,6 @@ tr.shown td.details-control {
 	background: url('https://datatables.net/examples/resources/details_close.png') no-repeat center center;
 	cursor: pointer;
 }
-
-
 .logo{
 	background-image: url('https://raw.githubusercontent.com/NYCDOB/CommunityProfiles_v2/gh-pages/dob_logo_white_transparent.png');
 	background-repeat: no-repeat;
@@ -108,14 +104,19 @@ tr.shown td.details-control {
     background: #fff;
     border-radius: 3px;
     opacity: 0.9;
-    position: relative!;
-    border: 2px solid #707070;
-    width: 25em;
+    zzzposition: relative!;
+    border: 1px solid #707070;
+    zzzwidth: 25em;
     font-size: 1.2em;
     padding: 0px;
-    right: 10px;
+    zzzsright: 10px;
     display: none;
     flex-direction: column;
+
+
+
+	max-width: 25em;
+	max-height:30em;	
 }
 
 
@@ -365,6 +366,13 @@ a.ndec{
 	font-weight:bold;
 	border:1px solid rgb(184, 184, 184);
 }
+.notesotherlinks {
+	 font-size:.8em;
+	 display:flex;
+	 justify-content:space-between;
+	 padding-top:10px;
+	 flex-wrap:wrap"
+}
 header {
     align-items: center;
     font-size: 24px;
@@ -391,7 +399,7 @@ header {
 		<span>This map shows locations which have a <a href="https://www.nyc.gov/site/buildings/property-or-business-owner/stop-work-order.page" target="_blank">Stop Work Order</a> issued or rescinded in the past two years.   To view specifics, click on a location and then click on the Complaint Number.</span>
 		<span class="report311"><a class="report311" href="https://portal.311.nyc.gov/article/?kanumber=KA-01911" target="_blank">To report work being done while a Stop Work Order is in effect, call 311.</a></span>
 	</div>
-	<div style="font-size:.8em;display:flex;justify-content:space-between;padding-top:10px">
+	<div class="notesotherlinks">
 		<div><a id="dlData" class="dlData" href="">Download Data (.csv)</a></div>
 		<div>Built by DOB Analytics <a href="https://www1.nyc.gov/site/buildings/dob/analytics-reports.page" target="_blank">Dev Squad</a> </div>
 	</div>
@@ -619,7 +627,33 @@ var map = L.map('map').setView([40.713312, -73.977407], 14);
 
 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png?key=cb1_27tu_1_978b0622efbf904b17d1bcc4', {attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attributions">CARTO</a>'}).addTo(map);
 
-var tooltip = d3.select('.leaflet-top.leaflet-right').append('div').attr('class', 'tooltip leaflet-control')
+//////////var tooltip = d3.select('.leaflet-top.leaflet-right').append('div').attr('class', 'tooltip leaflet-control')
+
+
+const PropInfoPopup  = L.Control.extend({
+    options: {
+        position: 'topright'
+    },
+    onAdd: function (map) {
+        const div = L.DomUtil.create('div', 'tooltip');
+        L.DomEvent.disableClickPropagation(div);
+        L.DomEvent.disableScrollPropagation(div);
+
+        // Add a click handler to your element
+        // div.querySelector('button').addEventListener('click', (e) => {
+        //     console.log('Button clicked!');
+        // });
+        return div;
+    },
+    onRemove: function (map) {
+        // Clean up listeners if necessary
+    }
+});
+const popupinfo = new PropInfoPopup();
+map.addControl(popupinfo);
+var tooltip = d3.select('.tooltip')
+
+
 
 var width = $("#map").width(),
 	height = $("#map").height(),
@@ -639,7 +673,7 @@ var width = $("#map").width(),
         let _dX=0;
         let _l=[];
         let doString = (_dX, _l)=>{
-            let _oled= `<div class="_tD"><div class="_nav">${_dX+1} of ${_l.length}</div><div style="flex:1" ><span class="_pr" >&#x25C0;</span><span class="_nx">&#x25B6;</span></div><div style="float:right;font-size:17px;" title="Close" class="material-symbols-outlined _cl">close</div></div><div class="_cycleD"><div class="_fM3_0"><div style="flex:5">COMPLAINT NUMBER:</div><div style="flex:4"><a class="ndec" href="https://a810-bisweb.nyc.gov/bisweb/OverviewForComplaintServlet?complaintno=${_l[_dX]["Complaint Number"]}&go6=+GO+&requestid=0" target="_blank">${_l[_dX]["Complaint Number"]}</a></div><span class="_cor" style="color:white;display:none">${_l[_dX]["Latitude"]}${_l[_dX]["Longitude"]}</span></div><div class="_fM3_0"><div style="flex:5">BIN:</div><div style="flex:4"><a class="ndec" href="https://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=1&bin=${_l[_dX]["BIN"]}&go6=+GO+&requestid=0" target="_blank">${_l[_dX]["BIN"]}</a></div></div><div class="_fM3_0"><div style="flex:5">ADDRESS:</div><div style="flex:4">${_l[_dX]["Address"]}, ${_l[_dX]["Borough"]}</div></div><div class="_fM3_0"><div style="flex:5">COMMUNITY DISTRICT:</div><div style="flex:4">${_l[_dX]["Community Board"]}</div></div><div class="_fM3_0"><div style="flex:5">LAST DISPOSITION DATE:</div><div style="flex:4">${_l[_dX]["Last Disposition Date"]}</div></div><div class="_fM3_0"><div style="flex:5">LAST DISPOSITION CODE:</div><div style="flex:4">${_l[_dX]["Disposition Code Description"]}</div></div></div>`;
+            let _oled= `<div class="_tD"><div class="_nav">${_dX+1} of ${_l.length}</div><div style="flex:1" ><span class="_pr" >&#x25C0;</span>&nbsp<span class="_nx">&#x25B6;</span></div><div style="float:right;font-size:17px;" title="Close" class="material-symbols-outlined _cl">close</div></div><div class="_cycleD"><div class="_fM3_0"><div style="flex:5">COMPLAINT NUMBER:</div><div style="flex:4"><a class="ndec" href="https://a810-bisweb.nyc.gov/bisweb/OverviewForComplaintServlet?complaintno=${_l[_dX]["Complaint Number"]}&go6=+GO+&requestid=0" target="_blank">${_l[_dX]["Complaint Number"]}</a></div><span class="_cor" style="color:white;display:none">${_l[_dX]["Latitude"]}${_l[_dX]["Longitude"]}</span></div><div class="_fM3_0"><div style="flex:5">BIN:</div><div style="flex:4"><a class="ndec" href="https://a810-bisweb.nyc.gov/bisweb/PropertyProfileOverviewServlet?requestid=1&bin=${_l[_dX]["BIN"]}&go6=+GO+&requestid=0" target="_blank">${_l[_dX]["BIN"]}</a></div></div><div class="_fM3_0"><div style="flex:5">ADDRESS:</div><div style="flex:4">${_l[_dX]["Address"]}, ${_l[_dX]["Borough"]}</div></div><div class="_fM3_0"><div style="flex:5">COMMUNITY DISTRICT:</div><div style="flex:4">${_l[_dX]["Community Board"]}</div></div><div class="_fM3_0"><div style="flex:5">LAST DISPOSITION DATE:</div><div style="flex:4">${_l[_dX]["Last Disposition Date"]}</div></div><div class="_fM3_0"><div style="flex:5">LAST DISPOSITION CODE:</div><div style="flex:4">${_l[_dX]["Disposition Code Description"]}</div></div></div>`;
 			return _oled;
 		}
 		let _clr=()=>{
@@ -696,7 +730,8 @@ var width = $("#map").width(),
 			if(d3.select(this).style("fill-opacity") != 0){
 				tooltip.html(dit(d.Latitude.concat(d.Longitude),1));
 				tooltip.style("display", "flex");
-				document.querySelector('.tooltip').scrollIntoView({behavior:"smooth",block:"end"})
+				document.querySelector('.tooltip').scrollIntoView({behavior:"smooth",block:"nearest"})
+				
 			}
 		})
 		.on("mouseover", function(d, i){
