@@ -405,7 +405,7 @@ header {
 	</div>
 </div>
 
-<div class="zrow" id="filterBar" style="margin:5px auto; zzzpadding-top:5px; zzzpadding-bottom:5px;zzzborder:1px solid lightgray">  
+<div class="row" style="padding: 15px 30px;">  
 	<div class="col-md-12"  style="padding-left:30px">
 			<form id="searchCourse" > 
 			<span id="filterTxt" >FILTER:</span>
@@ -531,11 +531,14 @@ header {
 						<button type="button" class="filterBtn" id="fltr_btn"> APPLY </button>
 						<button type="button" class="clearBtn" id="clr_btn"> CLEAR </button>
 						</span>
-			</form>				
+						<span class="nowrap">
+							<span id="filterTxt" >SWO COUNT:</span>
+							<span class="swoStats" id="swoCnt"></span>
+						</span>	
+			</form>			
+
 	</div>
-	<div class="col-md-12" style="padding-left:30px;">
-			<span class="nowrap"><span id="filterTxt" style="padding-right: 10px;">SWO COUNT:</span><span class="swoStats" id="swoCnt"></span></span>
-	</div>
+
 </div>
 
 <!-- <div class="zcontainer-fluid zdobmain" style="zmargin-top:5px;"> -->
@@ -638,11 +641,6 @@ const PropInfoPopup  = L.Control.extend({
         const div = L.DomUtil.create('div', 'tooltip');
         L.DomEvent.disableClickPropagation(div);
         L.DomEvent.disableScrollPropagation(div);
-
-        // Add a click handler to your element
-        // div.querySelector('button').addEventListener('click', (e) => {
-        //     console.log('Button clicked!');
-        // });
         return div;
     },
     onRemove: function (map) {
@@ -1148,7 +1146,7 @@ var width = $("#map").width(),
 				lengthChange: false,
 				info: false,
 				// "scrollY": "170vh",
-				"scrollY": "89vh",
+				"scrollY": "88vh",
 				"scrollX": true,
 				"scrollCollapse": true,
 				"paging": false,
@@ -1176,8 +1174,7 @@ var width = $("#map").width(),
 			});
 			table.columns(4).search("ACTIVE").draw();
 			$('#riskTable').on('draw.dt', function(){
-				//debugger;
-				//$('#loadpage').hide();
+				$('#loadpage').hide();
 				true;
 			})
 
